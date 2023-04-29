@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type ContentProps = {
   search: string;
@@ -16,12 +17,14 @@ export const Content = (props: ContentProps) => {
     })();
   }, [props.search])
 
-  return <div className="">{posts.map(post => (
-    <div key={post.title}>
-      <p>{post.title}</p>
-      <p>{post.description}</p>
-      <Image src={post.image} alt={post.description} width={500} height={500} />
-      <p>{post.url}</p>
-    </div>
-  ))}</div>
+  return <div>
+    {posts.map(post => (
+      <div key={post.id}>
+        <h2>{post.title}</h2>
+        <p>{post.description}</p>
+        <Image src={post.image} alt={post.description} width={500} height={500} />
+        <Link href={post.url}>{post.url}</Link>
+      </div>
+    ))}
+  </div>
 }
