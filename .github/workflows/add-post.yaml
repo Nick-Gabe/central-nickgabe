@@ -33,6 +33,8 @@ jobs:
     # Commit changes
     - name: Commit and push if changed
       run: |-
+        git config --global user.email "nickgabe@manager.com"
+        git config --global user.name "Post Manager"
         git add -A
         git commit -m "Adds new post" || exit 0
         git push
