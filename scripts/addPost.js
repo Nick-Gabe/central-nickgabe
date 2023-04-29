@@ -35,7 +35,7 @@ if(!url) {
     const firstTweet = threadTweets[0];
     const threadAsText = threadTweets.join("\n");
 
-    console.log('👩‍🎓', firstTweet, firstTweet.indexOf("\n"), firstTweet.length)
+    console.log('👩‍🎓', firstTweet)
 
     const firstNewLine = firstTweet.indexOf("\n");
     const sliceEnd = firstNewLine === -1 ? firstTweet.length : firstNewLine;
