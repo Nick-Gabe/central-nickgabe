@@ -1,0 +1,39 @@
+name: add-post
+
+on:
+  workflow_dispatch:
+    inputs:
+      tweetUrl:
+        description: "Url of the tweet to be added"
+        required: true
+        type: string
+
+jobs:
+  run-post-script:
+     # Create a ubuntu virtual machine
+    runs-on: ubuntu-latest
+
+    # Checkout repo code
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    # Install node
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 18
+    - run: npm install
+
+    - name: Runs node script
+      run: npm run addpost ${{ github.event.inputs.tweetUrl }}
+
+    # Commit changes
+    - name: Commit and push if changed
+      run: |-
+        git diff
+        git config --global user.email "nickgabe@manager.com"
+        git config --global user.name "Post Manager"
+        git add -A
+        git commit -m "Adds new post" || exit 0
+        git push
