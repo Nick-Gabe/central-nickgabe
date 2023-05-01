@@ -13,9 +13,9 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-center h-screen">
-     <Topbar/>
-     <Search setSearch={setSearch}/>
-     <Content search={search}/>
+      <Topbar/>
+      <Search setSearch={setSearch}/>
+      <Content search={search}/>
     </main>
   )
 }
