@@ -1,10 +1,10 @@
 .title {
-  @apply relative flex flex-col items-center text-center text-6xl font-bold mb-10;
+  @apply relative flex flex-col items-center text-center text-6xl font-bold mb-10 pt-20 sm:pt-0;
 }
 
 .title::after {
   content: "";
-  @apply absolute bottom-[15px] w-[120%] h-[8px] bg-primary rounded-xl border-2;
+  @apply absolute bottom-[15px] w-[120%] max-w-[95vw] h-[8px] bg-primary rounded-xl border-2;
 }
 
 .central {
