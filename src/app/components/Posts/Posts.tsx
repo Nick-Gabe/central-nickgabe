@@ -10,6 +10,7 @@ import Image from "next/image";
 export const Posts = (props: ContentProps) => {
   const { loading, setLoading } = props;
   const [posts, setPosts] = useState<Post[]>([]);
+  const [isFirstLoad, setIsFirstLoad] = useState(true);
 
   useEffect(() => {
     (async function () {
@@ -19,8 +20,10 @@ export const Posts = (props: ContentProps) => {
   }, [props.search])
 
   useEffect(() => {
+    if(isFirstLoad && !posts.length) return
+    setIsFirstLoad(false);
     setLoading(false);
-  }, [posts, setLoading])
+  }, [posts, setLoading, isFirstLoad])
 
   if (loading) return <Loading />
 
