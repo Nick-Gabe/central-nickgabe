@@ -1,0 +1,25 @@
+.container {
+  @apply relative flex items-center pl-3 bg-white rounded-full h-10 w-[90vw] border-2 box-content mb-20
+  sm:max-w-[80vw]
+  md:max-w-[450px]
+}
+
+.magnifier {
+  @apply h-[60%]
+}
+
+.input {
+  @apply bg-transparent h-full w-full rounded-r-full pl-3 pr-10
+}
+
+.input::placeholder {
+  @apply italic
+}
+
+.clearButton {
+  @apply absolute right-3
+}
+
+.input:placeholder-shown + .clearButton {
+  @apply hidden
+}

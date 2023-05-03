@@ -1,21 +1,26 @@
 "use client";
 
-import { Inter } from 'next/font/google'
-import { Topbar } from './components/Topbar'
-import { Search } from './components/Search'
-import { Content } from './components/Content'
+import { Search } from './components/Search/Search'
+import { Posts } from './components/Posts/Posts'
 import { useState } from 'react'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Title } from './components/Title/Title';
+import { Background } from './components/Background/Background';
+import { Loading } from './components/Loading/Loading';
 
 export default function Home() {
   const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(true);
 
   return (
     <main className="flex flex-col items-center justify-center h-screen">
-      <Topbar/>
-      <Search setSearch={setSearch}/>
-      <Content search={search}/>
+      <Title/>
+      <Search setSearch={setSearch} setLoading={setLoading}/>
+      <Posts
+        search={search}
+        loading={loading}
+        setLoading={setLoading}
+      />
+      <Background />
     </main>
   )
 }

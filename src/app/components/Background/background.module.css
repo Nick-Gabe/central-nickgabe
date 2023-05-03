@@ -1,0 +1,11 @@
+.container {
+  @apply w-full h-full absolute top-[300px] -z-10
+}
+
+.background {
+  @apply w-full
+}
+
+.bgColor {
+  @apply h-full w-full bg-brightPurple
+}
