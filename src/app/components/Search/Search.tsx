@@ -1,23 +1,26 @@
 import debounce from "lodash.debounce";
 import Image from "next/image";
-import { Dispatch, SetStateAction, useCallback, useEffect, useState } from "react";
+import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import styles from "./search.module.css";
-
-type SearchProps = {
-  setSearch: Dispatch<SetStateAction<string>>;
-}
+import { SearchProps } from "./SearchTypes";
 
 export const Search = (props: SearchProps) => {
   const [value, setValue] = useState("");
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const debouncedSearch = useCallback(debounce((nextValue) => props.setSearch(nextValue), 500), []);
+  const debouncedSearch = useCallback(debounce((nextValue) => props.setSearch(nextValue), 1000), []);
 
   useEffect(() => {
     debouncedSearch(value)
   }, [value, debouncedSearch])
 
+  const onChange = (event: ChangeEvent<HTMLInputElement>) => {
+    props.setLoading(true);
+    setValue(event.target.value)
+  }
+
   const clearSearch = () => {
+    props.setLoading(true);
     setValue("");
     props.setSearch("");
   };
@@ -35,7 +38,7 @@ export const Search = (props: SearchProps) => {
         className={styles.input}
         placeholder="Pesquise um tema"
         value={value} 
-        onChange={e => setValue(e.target.value)}
+        onChange={onChange}
       />
       <button className={styles.clearButton} onClick={clearSearch}>
         <Image

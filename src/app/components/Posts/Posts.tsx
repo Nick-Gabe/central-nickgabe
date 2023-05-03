@@ -4,8 +4,10 @@ import { PostCard } from "../PostCard/PostCard";
 import { Post } from "../PostCard/postCardTypes";
 import styles from "./posts.module.css";
 import { ContentProps } from "./postsTypes";
+import { Loading } from "../Loading/Loading";
 
 export const Posts = (props: ContentProps) => {
+  const { loading, setLoading } = props;
   const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
@@ -14,6 +16,12 @@ export const Posts = (props: ContentProps) => {
       setPosts(response.data);
     })();
   }, [props.search])
+
+  useEffect(() => {
+    setLoading(false);
+  }, [posts, setLoading])
+
+  if (loading) return <Loading />
 
   return <div className={styles.container}>
     {posts.map(post => (

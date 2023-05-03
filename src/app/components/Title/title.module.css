@@ -16,3 +16,17 @@
   @apply text-white font-inter relative bottom-5 z-10;
   text-shadow: 4px 4px 0 black;
 }
+
+.central, .nickgabe {
+  /* Using text shadow because stroke is not great :/ */
+  text-shadow:
+    -2px -2px 0 #000,
+    0px  -2px 0 #000,
+    2px  -2px 0 #000,
+    2px   0   0 #000,
+    2px   2px 0 #000,
+    0px   2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  0   0 #000,
+    4px   4px 0 #000;
+}

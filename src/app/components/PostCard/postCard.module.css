@@ -43,7 +43,7 @@
 }
 
 .footer {
-  @apply flex items-center self-end opacity-50 gap-3
+  @apply flex items-center self-end opacity-50 gap-3 font-light
 }
 
 .highlight {
