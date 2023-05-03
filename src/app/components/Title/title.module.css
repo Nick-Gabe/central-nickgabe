@@ -1,5 +1,5 @@
 .title {
-  @apply relative flex flex-col items-center text-center text-6xl font-bold mb-10 pt-20 sm:pt-0;
+  @apply relative flex flex-col items-center text-center text-6xl font-bold mb-10 pt-20 sm:pt-0 select-none;
 }
 
 .title::after {
