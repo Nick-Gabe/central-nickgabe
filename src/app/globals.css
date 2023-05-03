@@ -10,3 +10,7 @@
 body {
   @apply bg-purple font-inter
 }
+
+main {
+  @apply flex flex-col items-center h-screen sm:justify-center mb-20
+}
