@@ -1,0 +1,18 @@
+.title {
+  @apply relative flex flex-col items-center text-center text-6xl font-bold;
+}
+
+.title::after {
+  content: "";
+  @apply absolute bottom-[15px] w-[120%] h-[8px] bg-primary rounded-xl border-2;
+}
+
+.central {
+  @apply text-primary font-hammersmith;
+  text-shadow: 4px 4px 0 black;
+}
+
+.nickgabe {
+  @apply text-white font-inter relative bottom-5 z-10;
+  text-shadow: 4px 4px 0 black;
+}
