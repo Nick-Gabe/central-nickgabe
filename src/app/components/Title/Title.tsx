@@ -1,4 +1,4 @@
-import * as styles from "./title.module.css";
+import styles from "./title.module.css";
 
 export const Title = () => (
   <h1 className={styles.title}>

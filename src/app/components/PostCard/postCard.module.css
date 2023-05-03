@@ -1,0 +1,51 @@
+.container {
+  transition: .3s ease all;
+  @apply flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0
+}
+
+.container:hover {
+  @apply border-primary shadow-solidPrimary shadow-primary translate-x-[-5px] translate-y-[-5px]
+}
+
+.container:hover .description {
+  max-height: 100px;
+}
+
+.content {
+  @apply flex flex-col gap-2 text-white p-5 z-10
+}
+
+.content::before {
+  content: "";
+  background-image: linear-gradient(to top, black 10%, rgba(0,0,0,.7) 40%, transparent 70%);
+  @apply absolute top-0 left-0 w-full h-full z-[-1]
+}
+
+.banner {
+  @apply absolute h-full object-cover z-[-1] top-[-10%]
+}
+
+.description, .title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+
+.title {
+  @apply font-bold text-lg
+}
+
+.description {
+  transition: ease .5s max-height;
+  @apply max-h-0
+}
+
+.footer {
+  @apply flex items-center self-end opacity-50 gap-3
+}
+
+.highlight {
+  @apply text-primary
+}

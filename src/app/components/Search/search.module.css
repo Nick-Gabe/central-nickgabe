@@ -1,5 +1,5 @@
 .container {
-  @apply flex items-center pl-3 bg-white rounded-full h-10 w-[30vw] min-w-[425px] border-2 box-content
+  @apply flex items-center pl-3 bg-white rounded-full h-10 w-[30vw] min-w-[425px] border-2 box-content mb-20
 }
 
 .magnifier {

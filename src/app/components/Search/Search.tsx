@@ -1,7 +1,7 @@
 import debounce from "lodash.debounce";
 import Image from "next/image";
 import { Dispatch, SetStateAction, useCallback, useEffect, useState } from "react";
-import * as styles from "./search.module.css";
+import styles from "./search.module.css";
 
 type SearchProps = {
   setSearch: Dispatch<SetStateAction<string>>;
@@ -11,7 +11,7 @@ export const Search = (props: SearchProps) => {
   const [value, setValue] = useState("");
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const debouncedSearch = useCallback(debounce((nextValue) => props.setSearch(nextValue), 1000), []);
+  const debouncedSearch = useCallback(debounce((nextValue) => props.setSearch(nextValue), 500), []);
 
   useEffect(() => {
     debouncedSearch(value)
@@ -21,7 +21,7 @@ export const Search = (props: SearchProps) => {
     <div className={styles.container}>
       <Image
         className={styles.magnifier}
-        src={"/magnifier.svg"}
+        src={"/icons/magnifier.svg"}
         alt=""
         width={50}
         height={50}

@@ -28,6 +28,9 @@ module.exports = {
     fontFamily: {
       hammersmith: "'Hammersmith One', sans-serif",
       inter: "'Inter', sans-serif",
+    },
+    boxShadow: {
+      solidPrimary: "5px 5px 0 0"
     }
   },
   plugins: [],
