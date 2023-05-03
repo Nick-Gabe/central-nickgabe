@@ -17,6 +17,11 @@ export const Search = (props: SearchProps) => {
     debouncedSearch(value)
   }, [value, debouncedSearch])
 
+  const clearSearch = () => {
+    setValue("");
+    props.setSearch("");
+  };
+
   return(
     <div className={styles.container}>
       <Image
@@ -32,6 +37,14 @@ export const Search = (props: SearchProps) => {
         value={value} 
         onChange={e => setValue(e.target.value)}
       />
+      <button className={styles.clearButton} onClick={clearSearch}>
+        <Image
+          src="/icons/close.svg"
+          alt="Limpar pesquisa"
+          width={20}
+          height={20}
+        />
+      </button>
     </div>
   )
 }

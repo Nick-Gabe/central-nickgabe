@@ -1,5 +1,5 @@
 .container {
-  @apply flex items-center pl-3 bg-white rounded-full h-10 w-[30vw] min-w-[425px] border-2 box-content mb-20
+  @apply relative flex items-center pl-3 bg-white rounded-full h-10 w-[30vw] min-w-[425px] border-2 box-content mb-20
 }
 
 .magnifier {
@@ -7,9 +7,17 @@
 }
 
 .input {
-  @apply bg-transparent h-full w-full rounded-r-full pl-3
+  @apply bg-transparent h-full w-full rounded-r-full pl-3 pr-10
 }
 
 .input::placeholder {
   @apply italic
+}
+
+.clearButton {
+  @apply absolute right-3
+}
+
+.input:placeholder-shown + .clearButton {
+  @apply hidden
 }
