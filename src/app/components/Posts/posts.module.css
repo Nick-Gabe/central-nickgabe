@@ -4,3 +4,7 @@
   md:grid-cols-2
   lg:grid-cols-3 lg:max-w-[1600px] lg:px-10
 }
+
+.notFound {
+  @apply flex flex-col items-center w-full justify-center font-bold text-2xl text-white gap-5
+}

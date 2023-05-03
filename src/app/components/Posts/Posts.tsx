@@ -5,6 +5,7 @@ import { Post } from "../PostCard/postCardTypes";
 import styles from "./posts.module.css";
 import { ContentProps } from "./postsTypes";
 import { Loading } from "../Loading/Loading";
+import Image from "next/image";
 
 export const Posts = (props: ContentProps) => {
   const { loading, setLoading } = props;
@@ -23,9 +24,17 @@ export const Posts = (props: ContentProps) => {
 
   if (loading) return <Loading />
 
-  return <div className={styles.container}>
-    {posts.map(post => (
-      <PostCard key={post.id} post={post} search={props.search} />
-    ))}
-  </div>
+  return posts.length ?
+    <div className={styles.container}>
+      {posts.map(post => (
+        <PostCard key={post.id} post={post} search={props.search} />
+      ))}
+    </div>
+    : (
+      <div className={styles.notFound}>
+        <h2>Vish, não encontrei nada por aqui...</h2>
+        <Image src="/extras/robot.svg" alt="Robô triste" width={200} height={200} />
+      </div>
+    )
+
 }
