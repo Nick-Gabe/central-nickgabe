@@ -18,10 +18,12 @@ module.exports = {
       brightPurple: "#4D4577",
       white: "#F2F2F2",
       black: "#121111",
+      transparent: "rgba(0,0,0,0)"
     },
     borderColor: {
       primary: "#FE3B7B",
       black: "#000000",
+      transparent: "rgba(0,0,0,0)"
     },
     fontFamily: {
       hammersmith: "'Hammersmith One', sans-serif",

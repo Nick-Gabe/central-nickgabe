@@ -1,5 +1,7 @@
 import debounce from "lodash.debounce";
+import Image from "next/image";
 import { Dispatch, SetStateAction, useCallback, useEffect, useState } from "react";
+import * as styles from "./search.module.css";
 
 type SearchProps = {
   setSearch: Dispatch<SetStateAction<string>>;
@@ -15,5 +17,21 @@ export const Search = (props: SearchProps) => {
     debouncedSearch(value)
   }, [value, debouncedSearch])
 
-  return <input className="text-black" placeholder='search' value={value} onChange={e => setValue(e.target.value)}/> 
+  return(
+    <div className={styles.container}>
+      <Image
+        className={styles.magnifier}
+        src={"/magnifier.svg"}
+        alt=""
+        width={50}
+        height={50}
+      />
+      <input
+        className={styles.input}
+        placeholder="Pesquise um tema"
+        value={value} 
+        onChange={e => setValue(e.target.value)}
+      />
+    </div>
+  )
 }

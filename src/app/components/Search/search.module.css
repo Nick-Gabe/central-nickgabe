@@ -1,0 +1,15 @@
+.container {
+  @apply flex items-center pl-3 bg-white rounded-full h-10 w-[30vw] min-w-[425px] border-2 box-content
+}
+
+.magnifier {
+  @apply h-[60%]
+}
+
+.input {
+  @apply bg-transparent h-full w-full rounded-r-full pl-3
+}
+
+.input::placeholder {
+  @apply italic
+}

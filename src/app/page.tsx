@@ -1,6 +1,6 @@
 "use client";
 
-import { Search } from './components/Search'
+import { Search } from './components/Search/Search'
 import { Content } from './components/Content'
 import { useState } from 'react'
 import { Title } from './components/Title/Title';
