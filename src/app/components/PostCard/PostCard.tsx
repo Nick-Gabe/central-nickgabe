@@ -32,14 +32,25 @@ export const PostCard = ({ post, search }: PostProps) => {
           </p>
 
           <div className={styles.footer}>
-            <time dateTime={post.date}>{formattedDate}</time>
-            <Image
-              className={styles.socialIcon}
-              src={`social/${post.social}.svg`}
-              alt={`${post.social} social media`}
-              width={25}
-              height={25}
-            />
+            <div>
+              <Image
+                className={styles.socialIcon}
+                src={`/icons/post-types/${post.type}.svg`}
+                alt={`Esse conteúdo é ${post.type}`}
+                width={25}
+                height={25}
+              />
+            </div>
+            <div>
+              <time dateTime={post.date}>{formattedDate}</time>
+              <Image
+                className={styles.socialIcon}
+                src={`/social/${post.social}.svg`}
+                alt={`Ícone da rede social ${post.social}`}
+                width={25}
+                height={25}
+              />
+            </div>
           </div>
         </div>
       </article>
