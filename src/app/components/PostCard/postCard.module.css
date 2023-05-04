@@ -10,10 +10,6 @@
   @apply max-h-[100px] mb-1;
 }
 
-.content {
-  @apply flex flex-col gap-2 text-white p-5 z-10;
-}
-
 .content::before {
   content: '';
   background-image: linear-gradient(
@@ -26,18 +22,6 @@
 }
 
 .description {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.description {
   transition: ease 0.5s max-height, ease 0.5s margin;
   @apply max-h-0 m-0;
-}
-
-.highlight {
-  @apply text-primary;
 }

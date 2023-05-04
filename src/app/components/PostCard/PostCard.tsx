@@ -22,11 +22,11 @@ export const PostCard = ({ post, search }: PostProps) => {
           width={1280}
           height={720}
         />
-        <div className={styles.content}>
+        <div className={`flex flex-col gap-2 text-white p-5 z-10 ${styles.content}`}>
           <h2 className='font-bold text-lg m-0 line-clamp-2'>
             <TextWithHighlight text={post.title} highlight={search} />
           </h2>
-          <p className={styles.description}>
+          <p className={`line-clamp-2 ${styles.description}`}>
             <TextWithHighlight text={post.description} highlight={search} />
           </p>
 
