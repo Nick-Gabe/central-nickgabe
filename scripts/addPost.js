@@ -1,7 +1,12 @@
 const puppeteer = require("puppeteer");
 const posts = require("../public/posts.json")
 const { writeFileSync} = require("fs");
-const [ node, cmd, url] = process.argv;
+const [ node, cmd, url, ...paramsArray] = process.argv;
+
+const params = paramsArray.reduce((acc, cur) => {
+  const [key, value] = cur.slice(2).split("=");
+  return { ...acc, [key]: value}
+}, {})
 
 if(!url) {
   console.log("Please provide the post url")
@@ -42,8 +47,8 @@ if(!url) {
 
     const newPosts = [...posts, {
       id: url.match(/(?<=status\/)[0-9]+/)[0],
-      title: firstTweet.slice(0, sliceEnd),
-      description: firstTweet.slice(sliceEnd),
+      title: params.title || firstTweet.slice(0, sliceEnd),
+      description: params.description || firstTweet.slice(sliceEnd),
       full: threadAsText,
       url: url,
       image: image

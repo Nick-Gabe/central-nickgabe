@@ -7,6 +7,12 @@ on:
         description: "Url of the tweet to be added"
         required: true
         type: string
+      title:
+        description: "You can override the post's title"
+        required: false
+      description:
+        description: "You can override the post's description"
+        required: false
 
 jobs:
   run-post-script:
@@ -28,7 +34,7 @@ jobs:
     - run: npm install
 
     - name: Runs post script
-      run: npm run addpost ${{ github.event.inputs.tweetUrl }}
+      run: npm run addpost ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}"
 
     # Commit changes
     - name: Commit and push if changed
