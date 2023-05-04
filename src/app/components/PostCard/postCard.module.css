@@ -8,7 +8,7 @@
 }
 
 .container:is(:hover,:focus) .description {
-  max-height: 100px;
+  @apply max-h-[100px] mb-1
 }
 
 .content {
@@ -34,16 +34,20 @@
 }
 
 .title {
-  @apply font-bold text-lg
+  @apply font-bold text-lg m-0
 }
 
 .description {
-  transition: ease .5s max-height;
-  @apply max-h-0
+  transition: ease .5s max-height, ease .5s margin;
+  @apply max-h-0 m-0
 }
 
 .footer {
-  @apply flex items-center self-end opacity-50 gap-3 font-light
+  @apply flex items-center justify-between opacity-50 font-light
+}
+
+.footer > div {
+  @apply flex items-center gap-3
 }
 
 .highlight {
