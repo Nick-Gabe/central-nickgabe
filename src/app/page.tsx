@@ -8,7 +8,7 @@ import { Title } from './components/Title/Title';
 import { Background } from './components/Background/Background';
 
 const DynamicGithubCorners = dynamic(() =>
-  import('./components/GithubCorners/GithubCorners').then((mod) => mod.GithubCorners),
+  import('./components/GithubCorners/GithubCorners'), { ssr: false }
 );
 
 export default function Home({ searchParams }: any) {

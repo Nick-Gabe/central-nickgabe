@@ -1,6 +1,6 @@
 import "@uiw/github-corners";
 
-export const GithubCorners = () => {
+const GithubCorners = () => {
   return (
     <github-corners
       target="__blank"
@@ -9,3 +9,5 @@ export const GithubCorners = () => {
     />
   );
 };
+
+export default GithubCorners;
