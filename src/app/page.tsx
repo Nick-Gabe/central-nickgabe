@@ -5,6 +5,7 @@ import { Posts } from './components/Posts/Posts'
 import { useState } from 'react'
 import { Title } from './components/Title/Title';
 import { Background } from './components/Background/Background';
+import { GithubCorners } from '@components/GithubCorners/GithubCorners';
 
 export default function Home({ searchParams }: any) {
   const [search, setSearch] = useState(searchParams.search || "");
@@ -12,6 +13,7 @@ export default function Home({ searchParams }: any) {
 
   return (
     <main>
+      <GithubCorners/>
       <Title/>
       <Search
         search={search}

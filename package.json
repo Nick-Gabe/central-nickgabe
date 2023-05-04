@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@svgr/webpack": "^7.0.0",
+    "@uiw/github-corners": "^1.5.15",
     "@vercel/analytics": "^1.0.1",
     "antd": "^5.4.6",
     "autoprefixer": "10.4.14",

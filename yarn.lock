@@ -1555,6 +1555,11 @@
     "@typescript-eslint/types" "5.59.1"
     eslint-visitor-keys "^3.3.0"
 
+"@uiw/github-corners@1.5.15", "@uiw/github-corners@^1.5.15":
+  version "1.5.15"
+  resolved "https://registry.yarnpkg.com/@uiw/github-corners/-/github-corners-1.5.15.tgz#40c0b5a0517947699af01321e2c845511c1adb4e"
+  integrity sha512-L7CxmxFxYRhy0Q2ofo8+TB+bpwG0xbeS0kQ6fzmvUWSuzCQ1XlX0f0I9DCQz31rYD9Q05Y3zOoiEi3d6Rsbbhw==
+
 "@vercel/analytics@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.0.1.tgz#38308a626c91866cb00a249c08bf65251e9b9d81"
