@@ -1,5 +1,5 @@
 .container {
-  @apply w-full h-full absolute top-[300px] -z-10
+  @apply w-full h-full fixed top-[300px] -z-10
 }
 
 .background {

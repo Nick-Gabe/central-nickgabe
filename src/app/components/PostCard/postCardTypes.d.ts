@@ -1,6 +1,8 @@
+import json from "../../../../public/posts.json";
+
 type SocialMedias = "twitter"
 
-type Post = typeof import("../../../../public/posts.json")[0] & {
+type Post = typeof json[0] & {
   social: SocialMedias
 };
 

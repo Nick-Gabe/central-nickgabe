@@ -6,8 +6,8 @@ export const TextWithHighlight = (props: TextWithHighlightProps) => {
     <span
       dangerouslySetInnerHTML={{
         __html: props.text.replaceAll(
-          props.highlight,
-          `<span class="${styles.highlight}"/>${props.highlight}</span>`
+          new RegExp(props.highlight, "ig"),
+          (match) => `<span class="${styles.highlight}"/>${match}</span>`
         )
       }}
     />
