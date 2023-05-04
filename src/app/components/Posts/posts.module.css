@@ -1,5 +1,5 @@
 .container {
-  @apply grid gap-10 max-w-[90vw]
+  @apply grid gap-10 max-w-[90vw] mb-5
   sm:grid-cols-2
   md:grid-cols-2
   lg:grid-cols-3 lg:max-w-[1600px] lg:px-10

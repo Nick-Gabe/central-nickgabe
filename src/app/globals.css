@@ -12,5 +12,5 @@ body {
 }
 
 main {
-  @apply flex flex-col items-center h-screen sm:justify-center mb-20
+  @apply flex flex-col items-center min-h-screen sm:justify-center mb-20
 }
