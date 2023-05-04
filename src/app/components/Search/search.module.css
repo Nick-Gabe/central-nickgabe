@@ -9,7 +9,7 @@
 }
 
 .input {
-  @apply bg-transparent h-full w-full rounded-full pl-12 pr-10
+  @apply bg-transparent h-full w-full rounded-full pl-12 pr-[4.5rem]
 }
 
 .input::placeholder {
