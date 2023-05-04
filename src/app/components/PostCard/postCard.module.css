@@ -3,11 +3,11 @@
   @apply flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0
 }
 
-.container:hover {
-  @apply border-primary shadow-solidPrimary shadow-primary translate-x-[-5px] translate-y-[-5px]
+.container:is(:hover,:focus) {
+  @apply border-primary shadow-solidPrimary shadow-primary translate-x-[-5px] translate-y-[-5px] outline-none
 }
 
-.container:hover .description {
+.container:is(:hover,:focus) .description {
   max-height: 100px;
 }
 

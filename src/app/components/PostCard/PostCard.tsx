@@ -13,8 +13,8 @@ export const PostCard = ({ post, search }: PostProps) => {
   }, [post])
 
   return (
-    <Link href={post.url} target="_blank">
-      <article className={styles.container}>
+    <Link href={post.url} target="_blank" className={styles.container}>
+      <article>
         <Image
           className={styles.banner}
           src={post.image}
