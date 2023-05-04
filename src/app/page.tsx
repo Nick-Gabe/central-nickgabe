@@ -1,11 +1,15 @@
 "use client";
 
+import dynamic from 'next/dynamic';
 import { Search } from './components/Search/Search'
 import { Posts } from './components/Posts/Posts'
 import { useState } from 'react'
 import { Title } from './components/Title/Title';
 import { Background } from './components/Background/Background';
-import { GithubCorners } from '@components/GithubCorners/GithubCorners';
+
+const DynamicGithubCorners = dynamic(() =>
+  import('./components/GithubCorners/GithubCorners').then((mod) => mod.GithubCorners),
+);
 
 export default function Home({ searchParams }: any) {
   const [search, setSearch] = useState(searchParams.search || "");
@@ -13,7 +17,7 @@ export default function Home({ searchParams }: any) {
 
   return (
     <main>
-      <GithubCorners/>
+      <DynamicGithubCorners/>
       <Title/>
       <Search
         search={search}
