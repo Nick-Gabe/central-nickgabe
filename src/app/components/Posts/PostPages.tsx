@@ -2,7 +2,7 @@ import styles from "./posts.module.css";
 import { PostCard } from "../PostCard/PostCard";
 import { PostPagesProps } from "./postsTypes";
 import { Post } from "@components/PostCard/postCardTypes";
-import { Pagination } from "antd";
+import { Pagination, ConfigProvider } from "antd";
 import { useState } from "react";
 
 const postsPerPage = 12;
@@ -15,7 +15,16 @@ export const PostPages = (props: PostPagesProps) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   return (
-    <>
+    <ConfigProvider
+      theme={{
+        components: {
+          Pagination: {
+            colorPrimary: "#1c1917",
+            colorPrimaryHover: "#ec4899",
+          }
+        }
+      }}
+    >
       <div className={styles.container}>
         {props.posts.sort(sortByDate).slice((currentPage - 1) * postsPerPage, currentPage * postsPerPage).map((post) => (
           <PostCard key={post.id} post={post} search={props.search} />
@@ -31,6 +40,6 @@ export const PostPages = (props: PostPagesProps) => {
           className="mt-4 mb-2"
         />
       )}
-    </>
+    </ConfigProvider>
   )
 }
