@@ -3,16 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}
-
-body {
-  @apply bg-purple font-inter
-}
-
-main {
-  @apply flex flex-col items-center min-h-screen sm:justify-center mb-20
 }
 
 .ant-message-custom-content {

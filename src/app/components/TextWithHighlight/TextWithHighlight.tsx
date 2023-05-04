@@ -1,5 +1,4 @@
 import { TextWithHighlightProps } from "./TextTypes";
-import styles from "./TextWithHighlight.module.css";
 
 export const TextWithHighlight = (props: TextWithHighlightProps) => {
   return (
@@ -7,7 +6,7 @@ export const TextWithHighlight = (props: TextWithHighlightProps) => {
       dangerouslySetInnerHTML={{
         __html: props.text.replaceAll(
           new RegExp(props.highlight, "ig"),
-          (match) => `<span class="${styles.highlight}"/>${match}</span>`
+          (match) => `<span class="text-primary"/>${match}</span>`
         )
       }}
     />

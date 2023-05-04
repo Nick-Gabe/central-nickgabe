@@ -1,55 +1,43 @@
 .container {
-  transition: .3s ease all;
-  @apply flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0
+  transition: 0.3s ease all;
 }
 
-.container:is(:hover,:focus) {
-  @apply border-primary shadow-solidPrimary shadow-primary translate-x-[-5px] translate-y-[-5px] outline-none
+.container:is(:hover, :focus) {
+  @apply border-primary shadow-solidPrimary shadow-primary translate-x-[-5px] translate-y-[-5px] outline-none;
 }
 
-.container:is(:hover,:focus) .description {
-  @apply max-h-[100px] mb-1
+.container:is(:hover, :focus) .description {
+  @apply max-h-[100px] mb-1;
 }
 
 .content {
-  @apply flex flex-col gap-2 text-white p-5 z-10
+  @apply flex flex-col gap-2 text-white p-5 z-10;
 }
 
 .content::before {
-  content: "";
-  background-image: linear-gradient(to top, black 10%, rgba(0,0,0,.7) 40%, transparent 70%);
-  @apply absolute top-0 left-0 w-full h-full z-[-1]
-}
-
-.banner {
-  @apply absolute h-full object-cover z-[-1] top-[-10%]
-}
-
-.description, .title {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2; 
-  -webkit-box-orient: vertical;
-}
-
-.title {
-  @apply font-bold text-lg m-0
+  content: '';
+  background-image: linear-gradient(
+    to top,
+    black 10%,
+    rgba(0, 0, 0, 0.7) 40%,
+    transparent 70%
+  );
+  @apply absolute top-0 left-0 w-full h-full z-[-1];
 }
 
 .description {
-  transition: ease .5s max-height, ease .5s margin;
-  @apply max-h-0 m-0
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
-.footer {
-  @apply flex items-center justify-between opacity-50 font-light
-}
-
-.footer > div {
-  @apply flex items-center gap-3
+.description {
+  transition: ease 0.5s max-height, ease 0.5s margin;
+  @apply max-h-0 m-0;
 }
 
 .highlight {
-  @apply text-primary
+  @apply text-primary;
 }
