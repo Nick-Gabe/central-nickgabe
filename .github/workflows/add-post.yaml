@@ -48,6 +48,7 @@ jobs:
     # Commit changes
     - name: Commit and push if changed
       run: |-
+        rm package-lock.json
         git config --global user.email "nickgabe@manager.com"
         git config --global user.name "Post Manager"
         git add -A

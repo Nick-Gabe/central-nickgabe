@@ -1,4 +1,5 @@
 import { PropsWithChildren } from 'react'
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import 'antd/dist/reset.css';
 
@@ -10,7 +11,10 @@ export const metadata = {
 export default function RootLayout(props: PropsWithChildren) {
   return (
     <html lang="pt">
-      <body>{props.children}</body>
+      <body>
+        {props.children}
+        <Analytics />
+      </body>
     </html>
   )
 }
