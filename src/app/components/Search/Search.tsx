@@ -1,53 +1,44 @@
 import debounce from "lodash.debounce";
-import Image from "next/image";
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import styles from "./search.module.css";
 import { SearchProps } from "./SearchTypes";
+import { SearchButtons } from "./SearchButtons";
+import MagnifierIcon from "@public/icons/magnifier.svg"
 
 export const Search = (props: SearchProps) => {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(props.search);
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const debouncedSearch = useCallback(debounce((nextValue) => props.setSearch(nextValue), 1000), []);
 
   useEffect(() => {
     debouncedSearch(value)
-  }, [value, debouncedSearch])
+  }, [value, debouncedSearch, props])
 
   const onChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value;
+    setValue(newValue);
+
+    if(props.search === newValue) return props.setLoading(false);
     props.setLoading(true);
-    setValue(event.target.value)
   }
 
   const clearSearch = () => {
     props.setLoading(true);
-    setValue("");
     props.setSearch("");
+    setValue("");
   };
 
   return(
     <div className={styles.container}>
-      <Image
-        className={styles.magnifier}
-        src={"/icons/magnifier.svg"}
-        alt=""
-        width={50}
-        height={50}
-      />
+      <MagnifierIcon className={styles.magnifier} />
       <input
         className={styles.input}
         placeholder="Pesquise um tema"
         value={value} 
         onChange={onChange}
       />
-      <button className={styles.clearButton} onClick={clearSearch}>
-        <Image
-          src="/icons/close.svg"
-          alt="Limpar pesquisa"
-          width={20}
-          height={20}
-        />
-      </button>
+      <SearchButtons onClearSearch={clearSearch} value={value} />
     </div>
   )
 }

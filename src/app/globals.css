@@ -14,3 +14,11 @@ body {
 main {
   @apply flex flex-col items-center min-h-screen sm:justify-center mb-20
 }
+
+.ant-message-custom-content {
+  @apply font-hammersmith !important;
+}
+
+.anticon-check-circle {
+  @apply text-primary !important;
+}

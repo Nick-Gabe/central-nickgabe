@@ -1,25 +1,29 @@
 .container {
-  @apply relative flex items-center pl-3 bg-white rounded-full h-10 w-[90vw] border-2 box-content mb-20
+  @apply relative flex items-center bg-white rounded-full h-10 w-[90vw] border-2 box-content mb-20
   sm:max-w-[80vw]
   md:max-w-[450px]
 }
 
 .magnifier {
-  @apply h-[60%]
+  @apply absolute left-3
 }
 
 .input {
-  @apply bg-transparent h-full w-full rounded-r-full pl-3 pr-10
+  @apply bg-transparent h-full w-full rounded-full pl-12 pr-10
 }
 
 .input::placeholder {
   @apply italic
 }
 
-.clearButton {
-  @apply absolute right-3
+.sideButtons {
+  @apply absolute flex items-center gap-2 right-3
 }
 
-.input:placeholder-shown + .clearButton {
+.clearButton:is(:focus,:hover), .linkButton:is(:focus,:hover) {
+  @apply text-primary
+}
+
+.input:placeholder-shown + .sideButtons {
   @apply hidden
 }

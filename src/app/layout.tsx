@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react'
 import './globals.css'
+import 'antd/dist/reset.css';
 
 export const metadata = {
   title: 'Centro Nick Gabe',

@@ -6,14 +6,18 @@ import { useState } from 'react'
 import { Title } from './components/Title/Title';
 import { Background } from './components/Background/Background';
 
-export default function Home() {
-  const [search, setSearch] = useState("");
+export default function Home({ searchParams }: any) {
+  const [search, setSearch] = useState(searchParams.search || "");
   const [loading, setLoading] = useState(true);
 
   return (
     <main>
       <Title/>
-      <Search setSearch={setSearch} setLoading={setLoading}/>
+      <Search
+        search={search}
+        setSearch={setSearch}
+        setLoading={setLoading}
+      />
       <Posts
         search={search}
         loading={loading}
