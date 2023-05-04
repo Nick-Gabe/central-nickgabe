@@ -10,8 +10,6 @@ on:
         type: choice
         options:
           - twitter
-          - instagram
-          - youtube
       tweetUrl:
         description: "Url of the tweet to be added"
         required: true
@@ -43,7 +41,7 @@ jobs:
     - run: npm install puppeteer
 
     - name: Runs post script
-      run: npm run addpost ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}" --social="${{ github.event.inputs.social }}"
+      run: npm run addpost ${{ github.event.inputs.social }} ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}"
 
     # Commit changes
     - name: Commit and push if changed
