@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const posts = require("../public/posts.json")
-const { writeFileSync} = require("fs");
+const { writeFileSync } = require("fs");
 const [ node, cmd, url, ...paramsArray] = process.argv;
 
 const params = paramsArray.reduce((acc, cur) => {
@@ -22,6 +22,8 @@ if(!url) {
     await page.waitForSelector("[data-testid=cellInnerDiv]>*:empty")
 
     const image = await page.evaluate(() => document.querySelector("[property=\"og:image\"]").content)
+
+    const date = await page.evaluate(() => document.querySelector("time").dateTime)
 
     const threadTweets = await page.evaluate(() => {
       const innerDivs = Array.from(document.querySelectorAll("[data-testid=cellInnerDiv]"));
@@ -51,7 +53,9 @@ if(!url) {
       description: params.description || firstTweet.slice(sliceEnd),
       full: threadAsText,
       url: url,
-      image: image
+      image: image,
+      date: date,
+      social: params.social
     }]
       .filter((post, index, source) => index === source.map(p => p.id).lastIndexOf(post.id));
 

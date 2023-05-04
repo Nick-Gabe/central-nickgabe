@@ -1,4 +1,4 @@
-import posts from "../../../../public/posts.json";
+import posts from "@public/posts.json";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
