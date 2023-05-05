@@ -32,9 +32,6 @@ module.exports = {
     boxShadow: {
       solidPrimary: '5px 5px 0 0',
     },
-    dropShadow: {
-      header: 'text-shadow: 4px 4px 0 black',
-    },
   },
   plugins: [],
 };
