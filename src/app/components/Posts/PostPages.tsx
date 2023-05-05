@@ -30,16 +30,14 @@ export const PostPages = (props: PostPagesProps) => {
           <PostCard key={post.id} post={post} search={props.search} />
         ))}
       </div>
-      {(
-        <Pagination
-          current={currentPage}
-          pageSize={postsPerPage}
-          total={props.posts.length}
-          onChange={setCurrentPage}
-          hideOnSinglePage
-          className="mt-4 mb-2"
-        />
-      )}
+      <Pagination
+        current={currentPage}
+        pageSize={postsPerPage}
+        total={props.posts.length}
+        onChange={setCurrentPage}
+        hideOnSinglePage
+        className="mt-4 mb-2"
+      />
     </ConfigProvider>
   )
 }
