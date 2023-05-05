@@ -13,7 +13,7 @@ export const PostCard = ({ post, search }: PostProps) => {
   }, [post])
 
   return (
-    <Link href={post.url} target="_blank" className={` flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0 ${styles.container}`}>
+    <Link href={post.url} target="_blank" className={` flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0 transition-all duration-300 ease-in  ${styles.container}`}>
       <article>
         <Image
           className='absolute h-full object-cover z-[-1] top-[-10%]'
