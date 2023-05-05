@@ -1,6 +1,5 @@
 import debounce from "lodash.debounce";
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
-import styles from "./search.module.css";
 import { SearchProps } from "./SearchTypes";
 import { SearchButtons } from "./SearchButtons";
 import MagnifierIcon from "@public/icons/magnifier.svg"
@@ -19,7 +18,7 @@ export const Search = (props: SearchProps) => {
     const newValue = event.target.value;
     setValue(newValue);
 
-    if(props.search === newValue) return props.setLoading(false);
+    if (props.search === newValue) return props.setLoading(false);
     props.setLoading(true);
   }
 
@@ -29,13 +28,13 @@ export const Search = (props: SearchProps) => {
     setValue("");
   };
 
-  return(
-    <div className={styles.container}>
-      <MagnifierIcon className={styles.magnifier} />
+  return (
+    <div className='relative flex items-center bg-white rounded-full h-10 w-[90vw] border-2 box-content mb-20 sm:max-w-[80vw] md:max-w-[450px]'>
+      <MagnifierIcon className='absolute left-3' />
       <input
-        className={styles.input}
+        className='bg-transparent h-full w-full rounded-full pl-12 pr-[4.5rem] placeholder:italic '
         placeholder="Pesquise um tema"
-        value={value} 
+        value={value}
         onChange={onChange}
       />
       <SearchButtons onClearSearch={clearSearch} value={value} />

@@ -11,8 +11,8 @@ export default function Home({ searchParams }: any) {
   const [loading, setLoading] = useState(true);
 
   return (
-    <main>
-      <Title/>
+    <main className='flex flex-col items-center min-h-screen sm:justify-center my-20'>
+      <Title />
       <Search
         search={search}
         setSearch={setSearch}

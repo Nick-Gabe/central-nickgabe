@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout(props: PropsWithChildren) {
   return (
     <html lang="pt">
-      <body>
+      <body className='bg-purple font-inter'>
         {props.children}
         <Analytics />
       </body>
