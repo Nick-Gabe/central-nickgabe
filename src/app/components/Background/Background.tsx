@@ -1,17 +1,16 @@
 import Image from "next/image";
-import styles from "./background.module.css"
 
 export const Background = () => {
   return (
-    <div className={styles.container}>
+    <div className='w-full h-full fixed top-[300px] -z-10'>
       <Image
-        className={styles.background}
+        className='w-full'
         src="/extras/bg-wave.svg"
         alt=""
         width={1440}
         height={368}
       />
-      <div className={styles.bgColor}></div>
+      <div className='h-full w-full bg-brightPurple'></div>
     </div>
   );
 };

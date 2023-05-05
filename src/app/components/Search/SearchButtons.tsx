@@ -1,4 +1,3 @@
-import styles from "./search.module.css";
 import { SearchButtonsProps } from "./SearchTypes";
 import { message, Tooltip } from "antd";
 import LinkIcon from "@public/icons/link.svg"
@@ -15,13 +14,13 @@ export const SearchButtons = (props: SearchButtonsProps) => {
   }
 
   return (
-    <div className={styles.sideButtons}>
+    <div className='absolute flex items-center gap-2 right-3'>
       <Tooltip
         title="Copia o link da pesquisa"
         placement="bottom"
         trigger={["focus", "hover"]}
       >
-        <button className={styles.linkButton} onClick={copyLink}>
+        <button className={`focus:text-primary hover:text-primary ${!props.value && 'hidden'} `} onClick={copyLink}>
           <LinkIcon />
         </button>
       </Tooltip>
@@ -30,7 +29,7 @@ export const SearchButtons = (props: SearchButtonsProps) => {
         placement="bottom"
         trigger={["focus", "hover"]}
       >
-        <button className={styles.clearButton} onClick={props.onClearSearch}>
+        <button className={`focus:text-primary hover:text-primary ${!props.value && 'hidden'}`} onClick={props.onClearSearch}>
           <CloseIcon />
         </button>
       </Tooltip>
