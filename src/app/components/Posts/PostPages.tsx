@@ -16,7 +16,7 @@ export const PostPages = (props: PostPagesProps) => {
 
   return (
     <>
-      <div className='grid gap-10 mb-5 sm:grid-cols-2 lg:grid-cols-3 lg:px-10 max-w-[90vw] lg:max-w-[1600px]'>
+      <div className='grid gap-10 max-w-[90vw] mb-5 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-[1600px] lg:px-10'>
         {posts.map((post) => (
           <PostCard key={post.id} post={post} search={props.search} />
         ))}
