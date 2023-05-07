@@ -4,11 +4,6 @@ import { Post } from "@components/PostCard/postCardTypes";
 import { Pagination } from "antd";
 import { useState } from "react";
 
-const postsPerPage = 12;
-
-const sortByDate = (a: Post, b: Post) => {
-  return new Date(a.date) < new Date(b.date) ? 1 : -1
-}
 
 export const PostPages = (props: PostPagesProps) => {
   const [currentPage, setCurrentPage] = useState(1);

@@ -6,6 +6,10 @@ import { Loading } from "../Loading/Loading";
 import { NoPostsFound } from "./NoPostsFound";
 import { PostPages } from "./PostPages";
 
+const sortByDate = (a: Post, b: Post) => {
+  return new Date(a.date) < new Date(b.date) ? 1 : -1
+}
+
 export const Posts = (props: PostsProps) => {
   const { loading, setLoading } = props;
   const [posts, setPosts] = useState<Post[]>([]);
@@ -13,8 +17,9 @@ export const Posts = (props: PostsProps) => {
   useEffect(() => {
     axios.get(`/api/posts?search=${props.search}`)
       .then((response) => {
-        setPosts(response.data)
-        setLoading(false)
+        const postsSortedByDate = response.data.sort(sortByDate);
+        setPosts(postsSortedByDate);
+        setLoading(false);
       })
   }, [props.search, setLoading])
 
