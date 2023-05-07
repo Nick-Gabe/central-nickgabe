@@ -15,13 +15,24 @@ export const PostCard = ({ post, search }: PostProps) => {
   return (
     <Link href={post.url} target="_blank" className={` flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0 transition-all duration-300 ease-in  ${styles.container}`}>
       <article>
-        <Image
-          className='absolute h-full object-cover z-[-1] top-[-10%]'
-          src={post.image}
-          alt="Post banner"
-          width={1280}
-          height={720}
-        />
+        {post.image ? (
+          <Image
+            className='absolute h-full object-cover z-[-1] top-[-10%]'
+            src={post.image}
+            alt="Post banner"
+            width={1280}
+            height={720}
+          />
+        ) : (
+          <div className='absolute h-full object-cover z-[-1] top-[-10%] bg-[#333] w-full flex items-center justify-center'>
+            <Image
+              src={`/social/${post.social}.svg`}
+              alt={`Ícone da rede social ${post.social}`}
+              width={64}
+              height={64}
+            />
+          </div>
+        )}
         <div className={`flex flex-col gap-2 text-white p-5 z-10 ${styles.content}`}>
           <h2 className='font-bold text-lg m-0 line-clamp-2'>
             <TextWithHighlight text={post.title} highlight={search} />
