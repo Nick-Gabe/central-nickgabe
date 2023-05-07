@@ -4,6 +4,7 @@ import { Post } from "@components/PostCard/postCardTypes";
 import { Pagination } from "antd";
 import { useEffect, useState } from "react";
 
+const postsPerPage = 9;
 
 export const PostPages = (props: PostPagesProps) => {
   const [currentPage, setCurrentPage] = useState(1);
