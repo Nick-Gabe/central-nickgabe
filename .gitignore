@@ -19,6 +19,8 @@
 .DS_Store
 *.pem
 .vscode
+.yarn
+.yarnrc.yml
 
 # debug
 npm-debug.log*

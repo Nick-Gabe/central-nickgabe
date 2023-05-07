@@ -3,16 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}
-
-body {
-  @apply bg-purple font-inter
-}
-
-main {
-  @apply flex flex-col items-center min-h-screen sm:justify-center mb-20
 }
 
 .ant-message-custom-content {
@@ -21,4 +15,11 @@ main {
 
 .anticon-check-circle {
   @apply text-primary !important;
+}
+
+.solidShadow {
+  /* Using text shadow because stroke is not great :/ */
+  text-shadow: -2px -2px 0 #000, 0px -2px 0 #000, 2px -2px 0 #000, 2px 0 0 #000,
+    2px 2px 0 #000, 0px 2px 0 #000, -2px 2px 0 #000, -2px 0 0 #000,
+    4px 4px 0 #000;
 }
