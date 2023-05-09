@@ -1,6 +1,22 @@
 {
-  "extends": "next/core-web-vitals",
+  "plugins": ["prettier"],
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
   "rules": {
-    "indent": ["error", 2]
+    "prettier/prettier": "error",
+    "indent": ["error", 2],
+    "no-console": ["error", {
+      "allow": ["debug", "error"]
+    }],
+    "array-bracket-spacing": "error",
+    "comma-spacing": "error",
+    "no-alert": "error",
+    "no-const-assign": "error",
+    "no-empty": "error",
+    "no-eval": "error",
+    "no-extra-boolean-cast": "error",
+    "prefer-const": "error",
+    "sort-imports": "error",
+    "sort-keys": "error",
+    "sort-vars": "error"
   }
 }
