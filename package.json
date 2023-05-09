@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "addpost": "node ./scripts/addPost.js"
+    "addpost": "node ./scripts/addPost.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@svgr/webpack": "^7.0.0",
@@ -29,6 +31,7 @@
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "cypress": "^12.11.0",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
     "puppeteer": "^19.11.1",
