@@ -20,7 +20,7 @@ export const SearchButtons = (props: SearchButtonsProps) => {
         placement="bottom"
         trigger={["focus", "hover"]}
       >
-        <button className={`focus:text-primary hover:text-primary ${!props.value && 'hidden'} `} onClick={copyLink}>
+        <button className={`focus:text-primary hover:text-primary ${!props.value && 'hidden'} `} data-test-id="copy-link" onClick={copyLink}>
           <LinkIcon />
         </button>
       </Tooltip>
