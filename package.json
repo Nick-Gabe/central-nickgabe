@@ -7,7 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "addpost": "node ./scripts/addPost.js"
+    "addpost": "node ./scripts/addPost.js",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@svgr/webpack": "^7.0.0",
@@ -31,6 +38,11 @@
     "@types/react-dom": "18.2.1",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
     "puppeteer": "^19.11.1",
     "typescript-plugin-css-modules": "^5.0.1"
   }
