@@ -30,6 +30,6 @@ jobs:
         timeout-minutes: 5
         with:
           browser: chrome
-          start: yarn dev --host
+          start: yarn dev
           wait-on: 'http://localhost:3000'
           parallel: true
