@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        containers: [1, 2]
 
     steps:
       - name: Checkout
@@ -32,4 +30,3 @@ jobs:
           browser: chrome
           start: yarn dev
           wait-on: 'http://localhost:3000'
-          parallel: true
