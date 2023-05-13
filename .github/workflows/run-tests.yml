@@ -21,12 +21,15 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --ignore-scripts --ignore-optional
+
+      - name: Build project
+        run: yarn build
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v5
         timeout-minutes: 5
         with:
           browser: chrome
-          start: yarn dev
+          start: yarn start
           wait-on: 'http://localhost:3000'

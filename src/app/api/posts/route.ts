@@ -10,7 +10,10 @@ export async function GET(req: Request) {
     return new Response(
       JSON.stringify(
         posts.filter((post) => {
-          return regex.test(post.full);
+          return (
+            regex.test(post.full) ||
+            post.full.toLowerCase().includes(search.toLowerCase())
+          );
         })
       )
     );

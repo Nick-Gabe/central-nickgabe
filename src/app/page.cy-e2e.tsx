@@ -14,11 +14,18 @@ describe('App', () => {
   });
 
   describe('Search', () => {
-    it('should be able to search for a post', () => {
-      cy.get('input').type('Tu usa git?');
+    describe('should be able to search for a post', () => {
+      it('using regex', () => {
+        cy.get('input').type('\\?$');
+        cy.get('span').contains('?');
+        cy.get('a').should('have.attr', 'href');
+      });
 
-      cy.get('span').contains('Tu usa git?');
-      cy.get('a').should('have.attr', 'href');
+      it('using literal string', () => {
+        cy.get('input').type('Tu usa git?');
+        cy.get('span').contains(/Tu usa git?/i);
+        cy.get('a').should('have.attr', 'href');
+      });
     });
 
     it('should copy link successfully', async () => {
