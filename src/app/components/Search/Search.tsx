@@ -14,14 +14,14 @@ export const Search = (props: SearchProps) => {
   );
 
   useEffect(() => {
-    debouncedSearch(value);
+    debouncedSearch(value.trim());
   }, [value, debouncedSearch, props]);
 
   const onChange = (event: ChangeEvent<HTMLInputElement>) => {
     const newValue = event.target.value;
     setValue(newValue);
 
-    if (props.search === newValue) return props.setLoading(false);
+    if (props.search === newValue.trim()) return props.setLoading(false);
     props.setLoading(true);
   };
 
