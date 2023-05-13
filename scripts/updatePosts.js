@@ -1,17 +1,18 @@
 const posts = require('../public/posts.json');
 const { addPost } = require('./addPost');
-const { unlinkSync, renameSync } = require('fs');
+const { renameSync } = require('fs');
 
 const updatePost = (index = 0) => {
   const post = posts[index];
 
+  console.log('-'.repeat(30));
+
   if (index === posts.length) {
-    // unlinkSync('public/posts.json');
-    renameSync('public/temp_posts.json', 'public/posts2.json');
+    console.log('✅', 'Todos os posts foram atualizados com sucesso!');
+    renameSync('public/temp_posts.json', 'public/posts.json');
     return;
   }
 
-  console.log('-'.repeat(30));
   console.log('🚀', `Atualizando posts: ${index + 1}/${posts.length}`);
 
   addPost({
