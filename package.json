@@ -46,7 +46,9 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "puppeteer": "^19.11.1",
     "typescript-plugin-css-modules": "^5.0.1"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^19.11.1"
   }
 }

@@ -38,7 +38,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 18
-    - run: npm install puppeteer
+        cache: 'yarn'
+
+    - name: Installs puppeteer
+      run: yarn add puppeteer
 
     - name: Runs post script
       run: npm run addpost ${{ github.event.inputs.social }} ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}"
@@ -46,7 +49,6 @@ jobs:
     # Commit changes
     - name: Commit and push if changed
       run: |-
-        rm package-lock.json
         git config --global user.email "nickgabe@manager.com"
         git config --global user.name "Post Manager"
         git add -A
