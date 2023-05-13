@@ -24,6 +24,7 @@ export const SearchButtons = (props: SearchButtonsProps) => {
           className={`focus:text-primary hover:text-primary ${
             !props.value && 'hidden'
           } `}
+          data-test-id="copy-link"
           onClick={copyLink}
         >
           <LinkIcon />
