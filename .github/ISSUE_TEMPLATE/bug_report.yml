@@ -1,4 +1,4 @@
-name: Reportar um erro
+name: 🐛 Reportar um erro
 description: Utilize esse formato de issue para reportar um erro
 labels: [bug]
 body:
@@ -33,6 +33,6 @@ body:
     id: screenshot
     attributes:
       label: Mídia, se aplicável
-      description: Screenshot, vídeo, GIF, dentre outros, que mostrem o problema
+      description: Captura de tela, vídeo, GIF, dentre outros, que mostrem o problema
     validations:
       required: false
