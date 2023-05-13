@@ -1,4 +1,4 @@
-name: Sugerir uma nova funcionalidade
+name: 🚀 Sugerir uma nova funcionalidade
 description: Utilize esse formato de issue para sugerir uma nova funcionalidade.
 labels: [enhancement]
 body:
@@ -16,10 +16,10 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: O que deveria ser feito?
-      description: Crie etapas para esclarecer a sugestão
+      label: Como implementar?
+      description: Tem alguma sugestão de como isso pode ser implementado?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: screenshot
