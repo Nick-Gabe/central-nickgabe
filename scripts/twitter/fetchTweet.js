@@ -57,7 +57,6 @@ const fetchTweet = async (url, params) => {
   });
 
   browser.close();
-  console.log('🧠', threadTweets.length);
 
   const firstTweet = threadTweets[0];
   const threadAsText = threadTweets.join('\n');
