@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "addpost": "node ./scripts/addPost.js",
+    "add-post": "node ./scripts/dispatch.js",
+    "update-posts": "node ./scripts/updatePosts.js",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "prepare": "husky install"
