@@ -1,0 +1,38 @@
+name: 🐛 Reportar um erro
+description: Utilize esse formato de issue para reportar um erro
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: '# Reportar um erro'
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição do problema
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir?
+      description: Crie etapas para reproduzir o problema
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Comportamento esperado
+      description: O que deveria acontecer?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Mídia, se aplicável
+      description: Captura de tela, vídeo, GIF, dentre outros, que mostrem o problema
+    validations:
+      required: false
