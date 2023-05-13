@@ -1,0 +1,30 @@
+name: Sugerir uma nova funcionalidade
+description: Utilize esse formato de issue para sugerir uma nova funcionalidade.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: '# Sugestão de recurso'
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição da sugestão
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: O que deveria ser feito?
+      description: Crie etapas para esclarecer a sugestão
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Mídia, se aplicável
+      description: Screenshot, vídeo, GIF, dentre outros, que mostrem o problema
+    validations:
+      required: false
