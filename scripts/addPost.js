@@ -61,8 +61,13 @@ if (!url) {
     const result = innerDivs
       .slice(0, separatorIndex)
       .filter((div) => div.querySelector('[href="/ImNickGabe"]'))
-      .map((div) => div.querySelector('[data-testid=tweetText]').textContent);
+      .map((div) => {
+        const elements = 
+          Array.from(div.querySelectorAll('[data-testid=tweetText]>*'))
+          .map(item => item.alt || item.textContent).join("");
 
+        return elements;
+      })
     return result;
   });
 
@@ -97,6 +102,6 @@ if (!url) {
       index === source.map((p) => p.id).lastIndexOf(post.id)
   );
 
-  writeFileSync('public/posts.json', JSON.stringify(newPosts));
+  writeFileSync('public/posts.json', JSON.stringify(newPosts, null, 2));
   console.debug('👌', 'finished successfully');
 })();
