@@ -87,15 +87,15 @@ if (!url) {
   const newPosts = [
     ...posts,
     {
-      date: date,
-      description: params.description || firstTweet.slice(sliceEnd),
-      full: threadAsText,
-      id: url.match(/(?<=status\/)[0-9]+/)[0],
-      image: image,
-      social: social,
-      title: params.title || firstTweet.slice(0, sliceEnd),
       type: contentType,
-      url: url,
+      social: social,
+      id: url.match(/(?<=status\/)[0-9]+/)[0],
+      date: date,
+      url: url.match(/^.+(?=\?)/i)[0],
+      title: (params.title || firstTweet.slice(0, sliceEnd)).trim(),
+      description: (params.description || firstTweet.slice(sliceEnd)).trim(),
+      full: threadAsText.trim(),
+      image: image,
     },
   ].filter(
     (post, index, source) =>

@@ -176,17 +176,6 @@
     "url": "https://twitter.com/ImNickGabe/status/1620988612161699840?s=20"
   },
   {
-    "date": "2023-01-21T02:11:01.000Z",
-    "description": "\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso",
-    "full": " 1/2 - Tu conhece o operador &&= ?\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso\n 2/2 - Em português o literal fica estranho, mas minha tradução livre é \"Atribuição lógica verdadeira\"\n\nSe compararmos, aqui está usando o operador:\na &&= b\n\nE aqui como seria sem ele:\na && (a = b)\n\nÉ apenas uma forma de encurtar ifs ou validações existentes, mas ainda as faz.\nsim, conteúdo às 11 da noite\nolá pessoal noturno, como vão?",
-    "id": "1616619345534398466",
-    "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large",
-    "social": "twitter",
-    "title": " 1/2 - Tu conhece o operador &&= ?",
-    "type": "text",
-    "url": "https://twitter.com/ImNickGabe/status/1616619345534398466?s=20"
-  },
-  {
     "date": "2023-01-20T11:37:52.000Z",
     "description": "\n\n- Crio um tipo pras props do nosso contexto\n- Crio um objeto pra armazenar as props iniciais\n- Inicio o contexto com uma asserção",
     "full": "Um tempo atrás alguém me disse que não sabia usar contextos no Typescript. Então fiz um códigozinho pra ensinar vocês como eu faço:\n\n- Crio um tipo pras props do nosso contexto\n- Crio um objeto pra armazenar as props iniciais\n- Inicio o contexto com uma asserção\nvocê já usou React? É que context desta forma é específico dele, mas o conceito é de permitir que componentes utilizem estados de forma global",
@@ -273,5 +262,16 @@
     "title": " Tu sabe como ativar o Browser nativo do Vscode? É super prático e rápido, aqui tá um vídeozinho curto mostrando!",
     "type": "text",
     "url": "https://twitter.com/ImNickGabe/status/1613566604142329858?s=20"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1616619345534398466",
+    "date": "2023-01-21T02:11:01.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1616619345534398466",
+    "title": "🧵 1/2 - Tu conhece o operador &&= ?",
+    "description": "\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso",
+    "full": "🧵 1/2 - Tu conhece o operador &&= ?\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso\n🧵 2/2 - Em português o literal fica estranho, mas minha tradução livre é \"Atribuição lógica verdadeira\"\n\nSe compararmos, aqui está usando o operador:\na &&= b\n\nE aqui como seria sem ele:\na && (a = b)\n\nÉ apenas uma forma de encurtar ifs ou validações existentes, mas ainda as faz.\nsim, conteúdo às 11 da noite\nolá pessoal noturno, como vão?",
+    "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large"
   }
 ]
