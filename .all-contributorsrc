@@ -6,6 +6,19 @@
   "contributorsPerLine": 7,
   "contributors": [
     {
+      "login": "Nick-Gabe",
+      "name": "Nícolas Gabriel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42651514?v=4",
+      "profile": "https://github.com/Nick-Gabe",
+      "contributions": [
+        "bug",
+        "code",
+        "design",
+        "content",
+        "doc"
+      ]
+    },
+    {
       "login": "vboechat",
       "name": "Victor Ribeiro Boechat",
       "avatar_url": "https://avatars.githubusercontent.com/u/104161238?v=4",
@@ -14,6 +27,15 @@
         "code",
         "test",
         "bug"
+      ]
+    },
+    {
+      "login": "YuriSamp",
+      "name": "Yuri Sampaio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103132957?v=4",
+      "profile": "https://portfolio-yuri.vercel.app",
+      "contributions": [
+        "code"
       ]
     }
   ],
