@@ -1,8 +1,23 @@
 {
   "projectName": "central-nickgabe",
-  "projectOwner": "nick-gabe",
+  "projectOwner": "Nick-Gabe",
   "repoType": "github",
   "repoHost": "https://github.com",
   "contributorsPerLine": 7,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "datsfilipe",
+      "name": "Filipe Lima",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76636791?v=4",
+      "profile": "https://datsfilipe.dev/bio",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ],
+  "commitConvention": "angular"
 }
