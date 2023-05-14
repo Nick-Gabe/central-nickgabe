@@ -1,8 +1,24 @@
 {
   "projectName": "central-nickgabe",
-  "projectOwner": "nick-gabe",
+  "projectOwner": "Nick-Gabe",
   "repoType": "github",
   "repoHost": "https://github.com",
   "contributorsPerLine": 7,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "vboechat",
+      "name": "Victor Ribeiro Boechat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104161238?v=4",
+      "profile": "https://vboechat.github.io/",
+      "contributions": [
+        "code",
+        "test",
+        "bug"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ],
+  "commitConvention": "angular"
 }
