@@ -5,24 +5,28 @@ import { Metadata } from 'next';
 import { PropsWithChildren } from 'react';
 import { Providers } from '@components/Providers/Providers';
 
+const title = 'Central Nick Gabe';
+const description = 'Central para reunir meus conteúdos';
+const url = 'https://nickgabe.vercel.app';
+
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://nickgabe.vercel.app',
+    canonical: url,
   },
-  description: 'Central para reunir meus conteúdos',
-  metadataBase: new URL('https://nickgabe.vercel.app'),
+  description: description,
+  metadataBase: new URL(url),
   openGraph: {
-    description: 'Central para reunir meus conteúdos',
+    description: description,
     images: [
       /* TODO: Add images */
     ],
     locale: 'pt-BR',
-    siteName: 'Central Nick Gabe',
-    title: 'Central Nick Gabe',
+    siteName: title,
+    title: title,
     type: 'website',
-    url: 'https://nickgabe.vercel.app',
+    url: url,
   },
-  title: 'Central Nick Gabe',
+  title: title,
 };
 
 export default function RootLayout(props: PropsWithChildren) {
