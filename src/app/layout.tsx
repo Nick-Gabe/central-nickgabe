@@ -6,7 +6,11 @@ import { PropsWithChildren } from 'react';
 import { Providers } from '@components/Providers/Providers';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://nickgabe.vercel.app',
+  },
   description: 'Central para reunir meus conteúdos',
+  metadataBase: new URL('https://nickgabe.vercel.app'),
   openGraph: {
     description: 'Central para reunir meus conteúdos',
     images: [
