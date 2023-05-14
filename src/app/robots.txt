@@ -1,12 +1,5 @@
-import { MetadataRoute } from 'next';
+User-Agent: *
+Allow: /
+Disallow: /api/
 
-export default function robots(): MetadataRoute.Robots {
-  return {
-    rules: {
-      allow: '/',
-      disallow: '/api/',
-      userAgent: '*',
-    },
-    sitemap: './sitemap.xml',
-  };
-}
+Sitemap: https://nickgabe.vercel.app/sitemap.xml
