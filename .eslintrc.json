@@ -25,6 +25,7 @@
     "prefer-const": "error",
     "sort-imports": "error",
     "sort-keys": "error",
-    "sort-vars": "error"
+    "sort-vars": "error",
+    "jsx-quotes": ["error", "prefer-double"]
   }
 }
