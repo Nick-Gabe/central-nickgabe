@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import ArrowNext from '@public/icons/arrow-right-square.svg';
+import ArrowPrev from '@public/icons/arrow-left-square.svg';
 import { Pagination } from 'antd';
 import { Post } from '@components/PostCard/postCardTypes';
 import { PostCard } from '../PostCard/PostCard';
@@ -30,9 +32,13 @@ export const PostPages = (props: PostPagesProps) => {
         current={currentPage}
         pageSize={postsPerPage}
         total={props.posts.length}
+        showLessItems
+        responsive
         onChange={setCurrentPage}
         hideOnSinglePage
-        className="mt-4 mb-2"
+        prevIcon={<ArrowPrev className="w-10" />}
+        nextIcon={<ArrowNext className="w-10" />}
+        className="mt-4 mb-20 text-[50px] border-2 border-purple p-2 sm:px-5 pt-0 pb-5 rounded-2xl overflow-hidden"
       />
     </>
   );

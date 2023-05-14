@@ -9,12 +9,54 @@
   box-sizing: border-box;
 }
 
+.ant-pagination :is(li, svg) {
+  height: 1em !important;
+}
+
 .ant-message-custom-content {
   @apply font-hammersmith !important;
 }
 
 .anticon-check-circle {
   @apply text-primary !important;
+}
+
+.ant-pagination-item-active {
+  @apply bg-brightPurple border-primary border-2 !important;
+}
+.ant-pagination-item-active a {
+  @apply text-primary !important;
+}
+
+.ant-pagination-disabled {
+  opacity: 0.3;
+}
+
+:is(.ant-pagination-item,.ant-pagination-jump-next,.ant-pagination-jump-prev) a {
+  margin: auto;
+  font-size: 0.6em;
+  display: inline-block;
+  width: 100%;
+}
+
+:is(.ant-pagination-item,.ant-pagination-jump-next,.ant-pagination-jump-prev) {
+  font-weight: bold;
+  width: 50px !important;
+}
+
+:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):hover {
+  @apply bg-white !important;
+}
+:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):hover .anticon {
+  @apply text-2xl bottom-[3px] relative !important;
+}
+
+.ant-pagination-item:not(.ant-pagination-item-active):hover {
+  @apply bg-white !important;
+}
+
+:is(.ant-pagination-prev,.ant-pagination-next):not(.ant-pagination-disabled):hover {
+  @apply text-white;
 }
 
 .solidShadow {
