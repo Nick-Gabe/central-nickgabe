@@ -35,7 +35,7 @@
 :is(.ant-pagination-item,.ant-pagination-jump-next,.ant-pagination-jump-prev) a {
   margin: auto;
   font-size: 0.6em;
-  display: inline-block;
+  display: inline-block !important;
   width: 100%;
 }
 
