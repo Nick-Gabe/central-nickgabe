@@ -7,8 +7,8 @@ export const Background = () => {
         className="w-full"
         src="/extras/bg-wave.svg"
         alt=""
-        width={1440}
-        height={368}
+        width={100}
+        height={21}
       />
       <div className="h-full w-full bg-brightPurple"></div>
     </div>
