@@ -12,6 +12,18 @@
       "profile": "https://portfolio-yuri.vercel.app",
       "contributions": [
         "code"
+      ],
+    {
+      "login": "Nick-Gabe",
+      "name": "Nícolas Gabriel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42651514?v=4",
+      "profile": "https://github.com/Nick-Gabe",
+      "contributions": [
+        "bug",
+        "code",
+        "design",
+        "content",
+        "doc"
       ]
     }
   ],
