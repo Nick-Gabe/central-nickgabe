@@ -6,12 +6,45 @@
   "contributorsPerLine": 7,
   "contributors": [
     {
+      "login": "Nick-Gabe",
+      "name": "Nícolas Gabriel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42651514?v=4",
+      "profile": "https://github.com/Nick-Gabe",
+      "contributions": [
+        "bug",
+        "code",
+        "design",
+        "content",
+        "doc"
+      ]
+    },
+    {
       "login": "datsfilipe",
       "name": "Filipe Lima",
       "avatar_url": "https://avatars.githubusercontent.com/u/76636791?v=4",
       "profile": "https://datsfilipe.dev/bio",
       "contributions": [
         "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "vboechat",
+      "name": "Victor Ribeiro Boechat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104161238?v=4",
+      "profile": "https://vboechat.github.io/",
+      "contributions": [
+        "code",
+        "test",
+        "bug"
+      ]
+    },
+    {
+      "login": "YuriSamp",
+      "name": "Yuri Sampaio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103132957?v=4",
+      "profile": "https://portfolio-yuri.vercel.app",
+      "contributions": [
         "code"
       ]
     }
