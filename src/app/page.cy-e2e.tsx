@@ -35,4 +35,12 @@ describe('App', () => {
       cy.get('span').contains('Link copiado para a área de transferência!');
     });
   });
+
+  it('should be redirected when github corner is clicked', () => {
+    cy.get('a:first-of-type').click();
+    cy.url().should(
+      'be.equal',
+      'https://github.com/nick-gabe/central-nickgabe'
+    );
+  });
 });
