@@ -8,7 +8,7 @@
   <img alt="Vercel badge" src="https://vercelbadge.vercel.app/api/nick-gabe/central-nickgabe?style=flat">
   <img alt="Repository stars" src="https://img.shields.io/github/stars/nick-gabe/central-nickgabe">
   <img alt="Top language" src="https://img.shields.io/github/languages/top/nick-gabe/central-nickgabe">
-  <img alt="Contributors" src="https://img.shields.io/github/all-contributors/nick-gabe/central-nickgabe/main">
+  <img alt="Contributors" src="https://img.shields.io/github/all-contributors/nick-gabe/central-nickgabe">
 </p>
 
 <p align="center">
