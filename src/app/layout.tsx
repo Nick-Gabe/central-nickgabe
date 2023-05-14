@@ -1,11 +1,23 @@
 import './globals.css';
 import 'antd/dist/reset.css';
 import { Analytics } from '@vercel/analytics/react';
+import { Metadata } from 'next';
 import { PropsWithChildren } from 'react';
 import { Providers } from '@components/Providers/Providers';
 
-export const metadata = {
+export const metadata: Metadata = {
   description: 'Central para reunir meus conteúdos',
+  openGraph: {
+    description: 'Central para reunir meus conteúdos',
+    images: [
+      /* TODO: Add images */
+    ],
+    locale: 'pt-BR',
+    siteName: 'Central Nick Gabe',
+    title: 'Central Nick Gabe',
+    type: 'website',
+    url: 'https://nickgabe.vercel.app',
+  },
   title: 'Central Nick Gabe',
 };
 
