@@ -104,6 +104,13 @@ Eu (Nick Gabe) frequentemente posto conteúdo educativo em redes sociais como Tw
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://datsfilipe.dev/bio"><img src="https://avatars.githubusercontent.com/u/76636791?v=4?s=100" width="100px;" alt="Filipe Lima"/><br /><sub><b>Filipe Lima</b></sub></a><br /><a href="https://github.com/Nick-Gabe/central-nickgabe/issues?q=author%3Adatsfilipe" title="Bug reports">🐛</a> <a href="https://github.com/Nick-Gabe/central-nickgabe/commits?author=datsfilipe" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
