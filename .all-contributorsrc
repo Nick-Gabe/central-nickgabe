@@ -1,8 +1,22 @@
 {
   "projectName": "central-nickgabe",
-  "projectOwner": "nick-gabe",
+  "projectOwner": "Nick-Gabe",
   "repoType": "github",
   "repoHost": "https://github.com",
   "contributorsPerLine": 7,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "YuriSamp",
+      "name": "Yuri Sampaio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103132957?v=4",
+      "profile": "https://portfolio-yuri.vercel.app",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ],
+  "commitConvention": "angular"
 }
