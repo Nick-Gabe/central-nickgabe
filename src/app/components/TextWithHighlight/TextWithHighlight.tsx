@@ -13,7 +13,11 @@ export const TextWithHighlight = (props: TextWithHighlightProps) => {
             (match) => `<span class="text-primary"/>${match}</span>`
           )
           .replaceAll(
-            new RegExp(props.highlight, 'ig'),
+            new RegExp(
+              // esse regex maluco seleciona apenas highlights que ainda não foram selecionados
+              `\b${props.highlight}\b(?!(?:(?!<\/?span)[^<])*<\/span>)`,
+              'ig'
+            ),
             (match) => `<span class="text-primary"/>${match}</span>`
           ),
       }}
