@@ -38,7 +38,7 @@ export const PostPages = (props: PostPagesProps) => {
         hideOnSinglePage
         prevIcon={<ArrowPrev className="w-10" />}
         nextIcon={<ArrowNext className="w-10" />}
-        className="mt-4 mb-20 text-[50px] border-2 border-purple p-2 sm:px-5 pt-0 pb-5 rounded-2xl overflow-hidden"
+        className="mt-4 mb-20 text-4xl font-bold border-2 border-purple p-2 rounded-2xl overflow-hidden"
       />
     </>
   );

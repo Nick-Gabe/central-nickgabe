@@ -10,7 +10,10 @@
 }
 
 .ant-pagination :is(li, svg) {
-  height: 1em !important;
+  height: 1.4em !important;
+  line-height: normal !important;
+  display: inline-flex !important;
+  align-items: center;
 }
 
 .ant-message-custom-content {
@@ -41,21 +44,21 @@
 
 :is(.ant-pagination-item,.ant-pagination-jump-next,.ant-pagination-jump-prev) {
   font-weight: bold;
-  width: 50px !important;
+  @apply w-11 sm:w-12 !important;
 }
 
-:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):hover {
+:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):is(:hover,:focus) {
   @apply bg-white !important;
 }
-:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):hover .anticon {
-  @apply text-2xl bottom-[3px] relative !important;
+:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):is(:hover,:focus) .anticon {
+  @apply text-2xl relative !important;
 }
 
-.ant-pagination-item:not(.ant-pagination-item-active):hover {
+.ant-pagination-item:not(.ant-pagination-item-active):is(:hover,:focus) {
   @apply bg-white !important;
 }
 
-:is(.ant-pagination-prev,.ant-pagination-next):not(.ant-pagination-disabled):hover {
+:is(.ant-pagination-prev,.ant-pagination-next):not(.ant-pagination-disabled):is(:hover,:focus) {
   @apply text-white;
 }
 

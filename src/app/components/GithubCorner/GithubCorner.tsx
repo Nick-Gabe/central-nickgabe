@@ -6,7 +6,7 @@ export const GithubCorner = () => {
   return (
     <Link
       href="https://github.com/nick-gabe/central-nickgabe"
-      className={`-top-1 -right-1 xl:fixed absolute z-20 ${styles.githubCorner}`}
+      className={`top-0 right-0 xl:fixed absolute z-20 ${styles.githubCorner}`}
     >
       <GHCornerIcon className="w-32 h-32" />
     </Link>
