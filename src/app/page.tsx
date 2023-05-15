@@ -17,15 +17,17 @@ export default function Home({ searchParams }: { searchParams: Params }) {
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
 
-  const updateQuery = useCallback((query: URLSearchParams) => {
+  const updateQuery = useCallback((query = new URLSearchParams()) => {
     const { origin } = window;
-    const params = '?' + query.toString();
+    const queryStr = query.toString();
+    const params = queryStr ? '?' + queryStr : '';
 
     window.history.replaceState({}, '', origin + params);
   }, []);
 
   useEffect(() => {
-    if (page === 0) return setPage(Number(searchParams.page || 1));
+    const pageParam = Number(searchParams.page);
+    if (page === 0 && pageParam > 0) return setPage(pageParam);
     setPage(1);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search, searchParams.page]);
@@ -35,7 +37,7 @@ export default function Home({ searchParams }: { searchParams: Params }) {
     if (page > 1) params.page = page.toString();
     if (search) params.search = search;
 
-    if (Object.keys(params).length === 0) return;
+    if (Object.keys(params).length === 0 && page > 1) return;
 
     const URLParams = new URLSearchParams(params);
     updateQuery(URLParams);
