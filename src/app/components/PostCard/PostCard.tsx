@@ -17,6 +17,7 @@ export const PostCard = ({ post, search }: PostProps) => {
       href={post.url}
       target="_blank"
       className={`flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0 transition-all duration-300 ease-in ${styles.container}`}
+      onClick={(e) => e.currentTarget.blur()}
     >
       <article>
         {post.image ? (
