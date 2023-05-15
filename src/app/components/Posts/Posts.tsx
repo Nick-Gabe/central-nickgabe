@@ -25,5 +25,11 @@ export const Posts = (props: PostsProps) => {
   if (loading) return <Loading />;
   if (posts.length === 0) return <NoPostsFound />;
 
-  return <PostPages posts={posts} search={props.search} />;
+  return (
+    <PostPages
+      posts={posts}
+      search={props.search}
+      pageHooks={props.pageHooks}
+    />
+  );
 };

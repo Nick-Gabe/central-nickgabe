@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import ArrowNext from '@public/icons/arrow-right-square.svg';
 import ArrowPrev from '@public/icons/arrow-left-square.svg';
 import { Pagination } from 'antd';
@@ -9,17 +9,23 @@ import { PostPagesProps } from './postsTypes';
 const postsPerPage = 9;
 
 export const PostPages = (props: PostPagesProps) => {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = props.pageHooks;
   const [posts, setPosts] = useState<Post[]>([]);
 
+  const totalPages = useMemo(
+    () => Math.ceil(props.posts.length / postsPerPage),
+    [props.posts.length]
+  );
+
   useEffect(() => {
-    setPosts(
-      props.posts.slice(
-        (currentPage - 1) * postsPerPage,
-        currentPage * postsPerPage
-      )
+    if (currentPage > totalPages) setCurrentPage(totalPages);
+
+    const slicedPosts = props.posts.slice(
+      (currentPage - 1) * postsPerPage,
+      currentPage * postsPerPage
     );
-  }, [currentPage, props.posts]);
+    setPosts(slicedPosts);
+  }, [currentPage, props.posts, setCurrentPage, totalPages]);
 
   return (
     <>
