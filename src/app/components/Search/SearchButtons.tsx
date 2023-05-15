@@ -5,11 +5,7 @@ import { SearchButtonsProps } from './SearchTypes';
 
 export const SearchButtons = (props: SearchButtonsProps) => {
   const copyLink = () => {
-    const params = new URLSearchParams({
-      search: props.value,
-    });
-    const link = `${window.origin}?${params.toString()}`;
-    navigator.clipboard.writeText(link);
+    navigator.clipboard.writeText(window.location.href);
     message.success('Link copiado para a área de transferência!');
   };
 

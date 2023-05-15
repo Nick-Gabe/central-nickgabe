@@ -4,7 +4,7 @@ export const Background = () => {
   return (
     <div className="w-full h-full fixed top-[300px] -z-10">
       <Image
-        className="w-full"
+        className="w-full select-none"
         src="/extras/bg-wave.svg"
         alt=""
         width={100}
