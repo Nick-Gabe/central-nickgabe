@@ -13,20 +13,29 @@ export const metadata: Metadata = {
   alternates: {
     canonical: url,
   },
-  description: description,
+  description,
   metadataBase: new URL(url),
   openGraph: {
-    description: description,
+    description,
     images: [
       /* TODO: Add images */
     ],
     locale: 'pt-BR',
     siteName: title,
-    title: title,
+    title,
     type: 'website',
     url: url,
   },
-  title: title,
+  title,
+  twitter: {
+    creator: '@ImNickGabe',
+    creatorId: '930575742060154885',
+    description,
+    images: [
+      /* TODO: Add images */
+    ],
+    title,
+  },
 };
 
 export default function RootLayout(props: PropsWithChildren) {
