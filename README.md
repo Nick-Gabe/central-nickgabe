@@ -66,38 +66,9 @@ Eu (Nick Gabe) frequentemente posto conteúdo educativo em redes sociais como Tw
 </details>
 <br>
 
-## ⚡ Como rodar:
-### Prepare o ambiente:
-> Instale o yarn caso não possua:
-> ```shell
-> npm install -g yarn
-> ```
-> Instale as dependências do projeto
-> ```shell
-> yarn install
-> ```
+## ❓ Gostaria de contribuir?
 
-### Front e Back:
-> - Inicie o projeto
-> ```shell
-> yarn dev
-> ```
-
-### Testes:
-> - Inicie o cypress
-> ```shell
-> yarn cypress:open
-> ```
-
-### Posts:
-> - Adicionar um novo post:
-> ```shell
-> yarn add-post <social-media> <post-url>
-> ```
-> - Atualizar posts existentes:
-> ```shell
-> yarn update-posts
-> ```
+Caso queira contribuir, abra o arquivo das [orientações de contribuições](https://github.com/Nick-Gabe/central-nickgabe/blob/main/CONTRIBUTING.md)
 
 ## 🤝 Contribuidores
 
