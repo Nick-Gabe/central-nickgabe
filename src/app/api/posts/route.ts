@@ -18,6 +18,8 @@ export async function GET(req: Request) {
       .map((post) => {
         if (!search) return post;
         const fullTextWithoutTitle = post.full.replace(post.title, '');
+        if (!fullTextWithoutTitle.toLowerCase().includes(search.toLowerCase()))
+          return post;
 
         const allWords = fullTextWithoutTitle.split(' ').map((word) => {
           if (word.includes('\n')) {
