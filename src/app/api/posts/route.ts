@@ -17,8 +17,9 @@ export async function GET(req: Request) {
       // update description
       .map((post) => {
         if (!search) return post;
+        const fullTextWithoutTitle = post.full.replace(post.title, '');
 
-        const allWords = post.full.split(' ').map((word) => {
+        const allWords = fullTextWithoutTitle.split(' ').map((word) => {
           if (word.includes('\n')) {
             const split = word.split('\n');
             return split[split.length - 1] + '\n';
