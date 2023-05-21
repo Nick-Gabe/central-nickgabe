@@ -7,19 +7,20 @@ export async function GET(req: Request) {
   try {
     const regex = new RegExp(search, 'ig');
 
+    const includesSearch = (text: string): boolean => {
+      return (
+        regex.test(text) ||
+        text.toLowerCase().includes(search.toLowerCase())
+      );
+    }
+    
     const filteredPosts = posts
-      .filter((post) => {
-        return (
-          regex.test(post.full) ||
-          post.full.toLowerCase().includes(search.toLowerCase())
-        );
-      })
+      .filter((post) => includesSearch(post.full))
       // update description
       .map((post) => {
         if (!search) return post;
         const fullTextWithoutTitle = post.full.replace(post.title, '');
-        if (!fullTextWithoutTitle.toLowerCase().includes(search.toLowerCase()))
-          return post;
+        if (!includesSearch(fullTextWithoutTitle)) return post
 
         const allWords = fullTextWithoutTitle.split(' ').map((word) => {
           if (word.includes('\n')) {
