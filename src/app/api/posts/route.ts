@@ -29,8 +29,8 @@ export async function GET(req: Request) {
           return word;
         });
 
-        const index = allWords.findIndex((word) => regex.test(word));
         const start = index - 2;
+        const index = allWords.findIndex((word) => includesSearch(word));
         const end = allWords.length - 1;
         let description = allWords.slice(start, end).join(' ');
 
