@@ -328,5 +328,16 @@
     "description": "Ele se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso",
     "full": "🧵 1/2 - Tu conhece o operador &&= ?\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso\n🧵 2/2 - Em português o literal fica estranho, mas minha tradução livre é \"Atribuição lógica verdadeira\"\n\nSe compararmos, aqui está usando o operador:\na &&= b\n\nE aqui como seria sem ele:\na && (a = b)\n\nÉ apenas uma forma de encurtar ifs ou validações existentes, mas ainda as faz.\nsim, conteúdo às 11 da noite\nolá pessoal noturno, como vão?",
     "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1589375250286149632",
+    "date": "2022-11-06T21:52:43.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1589375250286149632",
+    "title": "No typescript, como você faria uma função que retorna o próprio tipo que ela recebe? 🤔",
+    "description": "- Se você não tipar, ela fica marcada como any\n- Se você tipar, ela fica com um tipo fixo\n\nÉ um dilema né?\n🧵 Mas relaxa, segue o fio que eu te ensino como fazer :)",
+    "full": "No typescript, como você faria uma função que retorna o próprio tipo que ela recebe? 🤔\n\n- Se você não tipar, ela fica marcada como any\n- Se você tipar, ela fica com um tipo fixo\n\nÉ um dilema né?\n🧵 Mas relaxa, segue o fio que eu te ensino como fazer :)\nVamos supor que temos uma função que retorna o que lhe é enviada, ou seja se receber um array retorna um array, se receber um número retorna um número.\n\nMas como fazemos pro typescript inferir esses tipos ao invés de precisarmos declará-los?\n\npois se tentarmos deixar vazio...\nNo estado atual, caso enviemos um número, por exemplo, ele retorna \"any\".\n\nPois o typescript não entende que estamos apenas retornando o que recebemos de forma automática!\n\nComo você acha que solucionamos isso?\nVamos seguindo!\nAssim como quando criamos genéricos em tipos, sabia que também podemos criar genéricos em funções?\n\nNós podemos criar um genérico tipo e assimilá-lo ao nosso parâmetro, e também definí-lo como retorno!\n\nAssim a função irá aplicar tipos independente do que passarmos :D",
+    "image": "https://pbs.twimg.com/profile_images/1619694669285187584/WLBYy1fB_200x200.jpg"
   }
 ]
