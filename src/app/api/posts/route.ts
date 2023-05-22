@@ -29,10 +29,12 @@ export async function GET(req: Request) {
           return word;
         });
 
-        const start = index - 2;
         const index = allWords.findIndex((word) => includesSearch(word));
+        if (index === -1) return post;
+        const after = allWords.slice(index).join(' ').length;
+        const start = after > 100 ? index - 2 : index - 6; // more words before if after is too big
         const end = allWords.length - 1;
-        let description = allWords.slice(start, end).join(' ');
+        let description = allWords.slice(start < 0 ? 0 : start, end).join(' ');
 
         description =
           description.length > 100 ? description.slice(0, 100) : description;
