@@ -222,17 +222,6 @@
   {
     "type": "text",
     "social": "twitter",
-    "id": "1616619345534398466",
-    "date": "2023-01-21T02:11:01.000Z",
-    "url": "https://twitter.com/ImNickGabe/status/1616619345534398466",
-    "title": "🧵 1/2 - Tu conhece o operador &&= ?",
-    "description": "Ele se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso",
-    "full": "🧵 1/2 - Tu conhece o operador &&= ?\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso\n🧵 2/2 - Em português o literal fica estranho, mas minha tradução livre é \"Atribuição lógica verdadeira\"\n\nSe compararmos, aqui está usando o operador:\na &&= b\n\nE aqui como seria sem ele:\na && (a = b)\n\nÉ apenas uma forma de encurtar ifs ou validações existentes, mas ainda as faz.\nsim, conteúdo às 11 da noite\nolá pessoal noturno, como vão?",
-    "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large"
-  },
-  {
-    "type": "text",
-    "social": "twitter",
     "id": "1655727117529759744",
     "date": "2023-05-09T00:11:21.000Z",
     "url": "https://twitter.com/ImNickGabe/status/1655727117529759744",
@@ -328,5 +317,16 @@
     "description": "🧵 Segue o fio, é rapidinho\ncc @sseraphini",
     "full": "⚡ Você sabia que dá pra ativar réguas no seu devtools pra poder visualizar melhor o posicionamento do seu css?\n\n🧵 Segue o fio, é rapidinho\ncc @sseraphini\n1. Entre nas configs do devtools\n2. Desça até Elements / Elementos\n3. Ative a opção Rulers / Réguas\n\nE prontinho! Menos de um minuto né?\nAproveita e ativa uns negócios de utilidade pública tbm\n- Word wrap\n- Tema escuro kkk\n- color format (rgb/hex/hsl)\n\ne tenha um bom dia! <3",
     "image": "https://pbs.twimg.com/media/FfS1Of9WYAEVedW.png:large"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1616619345534398466",
+    "date": "2023-01-21T02:11:01.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1616619345534398466",
+    "title": "🧵 1/2 - Tu conhece o operador &&= ?",
+    "description": "Ele se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso",
+    "full": "🧵 1/2 - Tu conhece o operador &&= ?\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso\n🧵 2/2 - Em português o literal fica estranho, mas minha tradução livre é \"Atribuição lógica verdadeira\"\n\nSe compararmos, aqui está usando o operador:\na &&= b\n\nE aqui como seria sem ele:\na && (a = b)\n\nÉ apenas uma forma de encurtar ifs ou validações existentes, mas ainda as faz.\nsim, conteúdo às 11 da noite\nolá pessoal noturno, como vão?",
+    "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large"
   }
 ]
