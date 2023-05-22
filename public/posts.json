@@ -273,5 +273,16 @@
     "description": "Existem dois jeitos de atribuir listeners em algo no Javascript, usando addEventListener ou uma atribuição!\n\nUsando addEventListeners, você pode adicionar muitas funções no mesmo evento se quiser\n\nMas via atribuição, ele sempre sobrepõe o existente!",
     "full": "🌞🧵 Fato gigatônico de hoje:\n\nExistem dois jeitos de atribuir listeners em algo no Javascript, usando addEventListener ou uma atribuição!\n\nUsando addEventListeners, você pode adicionar muitas funções no mesmo evento se quiser\n\nMas via atribuição, ele sempre sobrepõe o existente!\nPorém o listener salva por referência, ou seja, se você tem 3 listeners mas todos referenciam a mesma função, fica tranquilo que ela não vai ser duplicada!\n\nNesse exemplo, todos os 3 usam a função \"log\", porém como só existe 1 função \"log\", apenas 1 deles é executado!\nMas afinal, por que isso é interessante?\nPorque você pode estar com um memory leak sem nem saber! Veja abaixo por exemplo:\n\nSuper inofensivo, porém lembra que eu falei que o listener salva por referência? Esse não tem!\n\nEntão se a função addListeners for executada + de uma vez...",
     "image": "https://pbs.twimg.com/media/FuGnoEKXsAsvCv4.jpg:large"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1660690353526280193",
+    "date": "2023-05-22T16:53:29.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1660690353526280193",
+    "title": "💻 Falando de computadores, algo é realmente aleatório?",
+    "description": "É um lance que muitas pessoas nunca pararam pra pensar ou questionar, mas na real envolve muita coisa por trás! 🤔\n\nSe liga no vídeo que eu te explico esse negócio! :)",
+    "full": "💻 Falando de computadores, algo é realmente aleatório?\n\nÉ um lance que muitas pessoas nunca pararam pra pensar ou questionar, mas na real envolve muita coisa por trás! 🤔\n\nSe liga no vídeo que eu te explico esse negócio! :)\nashuashua pior que é uma coisa realmente filosófica, transcende computadores",
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1660689663303008270/pu/img/Q3cBon9fl4Zb5eR7.jpg:large"
   }
 ]
