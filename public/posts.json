@@ -361,5 +361,16 @@
     "description": "Tudo certo com você?\n\nVim aqui de manhãzinha pra gente aprender um pouquinho de Typescript, que tal?\n\n🧵 Hoje vamos entender um pouco mais sobre o tipo unknown usando exemplos simples. Vamo que vamo!",
     "full": "☀️Ooopa pessoal! Bom dia!\nTudo certo com você?\n\nVim aqui de manhãzinha pra gente aprender um pouquinho de Typescript, que tal?\n\n🧵 Hoje vamos entender um pouco mais sobre o tipo unknown usando exemplos simples. Vamo que vamo!\n🤔 Primeiramente vamos estabelecer as diferenças entre o tipo any, eles são parecidos, mas não são iguais!\n\n(dessa vez dei um zoom pro pessoal do mobile kk, desculpa pela última)\nOk Nico, mas como fazemos o tratamento de um tipo do qual não conhecemos hmmm?\n\nE a resposta é: por meio de verificações, pra ter a certeza de que ele realmente possui o tipo que esperamos! 😄\nMas e se forem tipos mais complexos, como um array ou até um objeto? 👻👻\n\nVamo ver como que resolve esse problema!",
     "image": "https://pbs.twimg.com/profile_images/1619694669285187584/WLBYy1fB_200x200.jpg"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1514249742271881218",
+    "date": "2022-04-13T14:30:46.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1514249742271881218",
+    "title": "🎯 Fala dev, tu sabe maneiras de substituir um switch e até mesmo um if/else por algo mais simples?",
+    "description": "Hoje vou te ensinar uma delas, com Object Literals!\n🧵- Sigam-me os bons!\ncc @sseraphini #bolhadev",
+    "full": "🎯 Fala dev, tu sabe maneiras de substituir um switch e até mesmo um if/else por algo mais simples?\n\nHoje vou te ensinar uma delas, com Object Literals!\n🧵- Sigam-me os bons!\ncc @sseraphini #bolhadev\n🤔 Dessa vez eu vou presumir que tu já saiba um if/else e switch por ter aberto esta thread, mas caso tu não saiba acho que por enquanto este post não é pra ti. :/\n\nAgora sim, vamos seguir em frente pq vai ser rapidinho, simbora.\nBem, para fins de exemplificar, primeiro vamos estruturar 1 switch e 1 if/else que façam a mesma tarefa. 📑\n\nNeste caso a tarefa do código é simples:\n- Sortear um número aleatório de 1 a 10 e imprimir ele por extenso no console.\n\nAqui temos a versão\nif/else || switch",
+    "image": "https://pbs.twimg.com/tweet_video_thumb/FQOyHFnWQAU6i_F.jpg:large"
   }
 ]
