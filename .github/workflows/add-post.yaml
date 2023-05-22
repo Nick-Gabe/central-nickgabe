@@ -44,7 +44,7 @@ jobs:
       run: yarn add puppeteer
 
     - name: Runs post script
-      run: npm run addpost ${{ github.event.inputs.social }} ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}"
+      run: npm run add-post ${{ github.event.inputs.social }} ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}"
 
     # Commit changes
     - name: Commit and push if changed
