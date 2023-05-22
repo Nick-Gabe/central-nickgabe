@@ -57,17 +57,6 @@
   {
     "type": "text",
     "social": "twitter",
-    "id": "1642910454212173824",
-    "date": "2023-04-03T15:22:30.000Z",
-    "url": "https://twitter.com/ImNickGabe/status/1642910454212173824",
-    "title": "Mas afinal, o que são type-guards no Typescript?",
-    "description": "Eles servem para validar seus tipos de uma forma mais abstraída e reutilizável.\n\n🧵 Vem comigo nessa thread que eu vou te explicar um pouquinho mais sobre isso!\n\ncc @sseraphini #typescript",
-    "full": "Mas afinal, o que são type-guards no Typescript?\n\nEles servem para validar seus tipos de uma forma mais abstraída e reutilizável.\n\n🧵 Vem comigo nessa thread que eu vou te explicar um pouquinho mais sobre isso!\n\ncc @sseraphini #typescript\nPrimeiro a gente precisa entender o propósito de um type guard.\n\nSabe quando você tem uma variável que pode ter vários tipos? Tipo X, Y, Z...\n\nO type guard é uma função criada por você, que pode ser utilizada para dizer se algo é ou não é de um tipo esperado!\n\nNão sacou? Vem cá!\nTodo mundo sabe que unknown é um dos pesadelos da tipagem, porque é complicado descobrir que tipo tal coisa tem em alguns cenários.\n\nPor exemplo, um *objeto {}* no JS é considerado:\n- do tipo objeto\n- não é null\n- não é um array\n\nimagina fazer 3 ifs pra descobrir o tipo toda vez?\nao invés disso, podemos criar um type-guard!\n\nele é uma função que retorna um boolean, e esse boolean é usado pro typescript saber se algo É ou NÃO É do tipo esperado.\n\nA gente comunica isso explicitando o retorno \"param is TipoEsperado\"\n\nVamos exemplificar com o objeto:",
-    "image": "https://pbs.twimg.com/media/FszKTuyXsAAioPE.jpg:large"
-  },
-  {
-    "type": "text",
-    "social": "twitter",
     "id": "1589276937008353280",
     "date": "2022-11-05T22:53:24.000Z",
     "url": "https://twitter.com/ImNickGabe/status/1589276937008353280",
@@ -317,5 +306,16 @@
     "description": "É algo bem fácil e bobinho, se liga no vídeo-tutorial!",
     "full": "😀 Galera, eu vi que recentemente o pessoal tá com uma dificuldade de centralizar div, então vim aqui ensinar pra vocês como se faz!\n\nÉ algo bem fácil e bobinho, se liga no vídeo-tutorial!\ninclusive esse é o novo cenário gente\nvou botar mais coisa ainda, aguardem",
     "image": "https://pbs.twimg.com/ext_tw_video_thumb/1655956262855802881/pu/img/HsBfkFUIaIDK-GLE.jpg:large"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1642910454212173824",
+    "date": "2023-04-03T15:22:30.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1642910454212173824",
+    "title": "Mas afinal, o que são type-guards no Typescript?",
+    "description": "Eles servem para validar seus tipos de uma forma mais abstraída e reutilizável.\n\n🧵 Vem comigo nessa thread que eu vou te explicar um pouquinho mais sobre isso!\n\ncc @sseraphini #typescript",
+    "full": "Mas afinal, o que são type-guards no Typescript?\n\nEles servem para validar seus tipos de uma forma mais abstraída e reutilizável.\n\n🧵 Vem comigo nessa thread que eu vou te explicar um pouquinho mais sobre isso!\n\ncc @sseraphini #typescript\nPrimeiro a gente precisa entender o propósito de um type guard.\n\nSabe quando você tem uma variável que pode ter vários tipos? Tipo X, Y, Z...\n\nO type guard é uma função criada por você, que pode ser utilizada para dizer se algo é ou não é de um tipo esperado!\n\nNão sacou? Vem cá!\nTodo mundo sabe que unknown é um dos pesadelos da tipagem, porque é complicado descobrir que tipo tal coisa tem em alguns cenários.\n\nPor exemplo, um *objeto {}* no JS é considerado:\n- do tipo objeto\n- não é null\n- não é um array\n\nimagina fazer 3 ifs pra descobrir o tipo toda vez?\nao invés disso, podemos criar um type-guard!\n\nele é uma função que retorna um boolean, e esse boolean é usado pro typescript saber se algo É ou NÃO É do tipo esperado.\n\nA gente comunica isso explicitando o retorno \"param is TipoEsperado\"\n\nVamos exemplificar com o objeto:",
+    "image": "https://pbs.twimg.com/media/FszKTuyXsAAioPE.jpg:large"
   }
 ]
