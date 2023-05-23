@@ -67,10 +67,12 @@ const fetchTweet = async (url, params) => {
   const contentType =
     isVideo || threadTweets.length > 1 ? 'text' : isImage || isLink;
 
+  const defaultImage = "https://pbs.twimg.com/profile_images";
+  
   return {
     url,
     date,
-    image,
+    image: image.startsWith(defaultImage) ? "" : image,
     type: contentType,
     full: threadAsText,
     title: params.title || firstTweet.slice(0, sliceEnd),
