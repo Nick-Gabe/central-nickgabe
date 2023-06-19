@@ -372,5 +372,16 @@
     "description": "Hoje vou te ensinar uma delas, com Object Literals!\n🧵- Sigam-me os bons!\ncc @sseraphini #bolhadev",
     "full": "🎯 Fala dev, tu sabe maneiras de substituir um switch e até mesmo um if/else por algo mais simples?\n\nHoje vou te ensinar uma delas, com Object Literals!\n🧵- Sigam-me os bons!\ncc @sseraphini #bolhadev\n🤔 Dessa vez eu vou presumir que tu já saiba um if/else e switch por ter aberto esta thread, mas caso tu não saiba acho que por enquanto este post não é pra ti. :/\n\nAgora sim, vamos seguir em frente pq vai ser rapidinho, simbora.\nBem, para fins de exemplificar, primeiro vamos estruturar 1 switch e 1 if/else que façam a mesma tarefa. 📑\n\nNeste caso a tarefa do código é simples:\n- Sortear um número aleatório de 1 a 10 e imprimir ele por extenso no console.\n\nAqui temos a versão\nif/else || switch",
     "image": "https://pbs.twimg.com/tweet_video_thumb/FQOyHFnWQAU6i_F.jpg:large"
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1506276226104799239",
+    "date": "2022-03-22T14:26:52.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1506276226104799239",
+    "title": "Galera, fui só eu ou vcs tbm demoraram pra descobrir que tinha como especificar altura e largura no radius da borda? tô me sentindo lerdo aqui kkkk",
+    "description": "#bolhadev #css #100DaysOfCode",
+    "full": "Galera, fui só eu ou vcs tbm demoraram pra descobrir que tinha como especificar altura e largura no radius da borda? tô me sentindo lerdo aqui kkkk\n\n#bolhadev #css #100DaysOfCode",
+    "image": "https://pbs.twimg.com/media/FOddwiqX0BE8eql.jpg:large"
   }
 ]
