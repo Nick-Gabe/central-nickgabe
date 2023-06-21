@@ -48,6 +48,13 @@ const fetchTweet = async (url, params) => {
         const elements = Array.from(
           div.querySelectorAll('[data-testid=tweetText]>*')
         )
+          .filter((item) => {
+            const roleLink =
+              item?.parentElement?.parentElement?.parentElement?.parentElement?.getAttribute(
+                'role'
+              );
+            return roleLink !== 'link';
+          })
           .map((item) => item.alt || item.textContent)
           .join('');
 
@@ -67,12 +74,12 @@ const fetchTweet = async (url, params) => {
   const contentType =
     isVideo || threadTweets.length > 1 ? 'text' : isImage || isLink;
 
-  const defaultImage = "https://pbs.twimg.com/profile_images";
-  
+  const defaultImage = 'https://pbs.twimg.com/profile_images';
+
   return {
     url,
     date,
-    image: image.startsWith(defaultImage) ? "" : image,
+    image: image.startsWith(defaultImage) ? '' : image,
     type: contentType,
     full: threadAsText,
     title: params.title || firstTweet.slice(0, sliceEnd),
