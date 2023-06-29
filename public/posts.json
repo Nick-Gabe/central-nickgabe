@@ -405,5 +405,16 @@
     "description": "- Você sabe utilizar os shorthands de direção no CSS?\n- Ainda não? Poxa... mas relaxa que eu te cubro! Toma uma colinha aqui.\n\ncc @sseraphini",
     "full": "⚡️ Opa dev! Me diz um negócio:\n\n- Você sabe utilizar os shorthands de direção no CSS?\n- Ainda não? Poxa... mas relaxa que eu te cubro! Toma uma colinha aqui.\n\ncc @sseraphini\nrepostando pq o primeiro tinha um errinho ali no padding, eu havia invertido a ordem kjsksjk\n\nisso que dá fazer refatoração no meio da edição e não ser retrocompatível kkkkkkkkkk",
     "image": "https://pbs.twimg.com/media/FgzapzYXEAE4vhV.png:large"
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1524787612304740355",
+    "date": "2022-05-12T16:24:30.000Z",
+    "url": "https://twitter.com/ImNickGabe/status/1524787612304740355",
+    "title": "Ai ai esse negócio de compatibilidade... 😩",
+    "description": "Mas sabe a real diferença dos dois como bordas?\n🧵Segue a thread 1/5\ncc @sseramemes @sseraphini",
+    "full": "Ai ai esse negócio de compatibilidade... 😩\n\nMas sabe a real diferença dos dois como bordas?\n🧵Segue a thread 1/5\ncc @sseramemes @sseraphini\n🧵2/5\n-webkit-text-stroke é uma propriedade que define a borda de um texto, nela você escreve seu tamanho junto de sua cor, bem simples.\n\nMas não é um mar de rosas, pois ela insere a borda num tipo central, ou seja ele aplica metade da borda por dentro do texto e metade por fora.",
+    "image": "https://pbs.twimg.com/media/FSkWV5HWAAExzoc.jpg:large"
   }
 ]
