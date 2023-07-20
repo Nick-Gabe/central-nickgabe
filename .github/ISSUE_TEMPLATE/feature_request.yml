@@ -25,6 +25,6 @@ body:
     id: screenshot
     attributes:
       label: Mídia, se aplicável
-      description: Screenshot, vídeo, GIF, dentre outros, que mostrem o problema
+      description: Screenshot, vídeo, GIF, dentre outros, que ajudem a demonstrar a sugestão.
     validations:
       required: false
