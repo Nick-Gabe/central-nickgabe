@@ -493,5 +493,16 @@
     "description": "",
     "full": "vou contar uma história pra vocês de vocês de como eu descobri uma falha de segurança numa casa de apostas... segue a thread 🧵",
     "image": ""
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1701641365237518368",
+    "date": "2023-09-12T16:58:11.000Z",
+    "url": "https://x.com/ImNickGabe/status/1701641365237518368",
+    "title": "Eu fiz um código rápido pra te exemplificar",
+    "description": "https://codepen.io/nick-gabe/pen/OJrmdoW…\n\nBlock: gera uma quebra de linha antes e depois do elemento\n\nInline: ele se mantém na própria linha, porém não aceita altura nem largura\n\nInline-block: ele se mantém na linha, mas aceita altura e largura",
+    "full": "Eu fiz um código rápido pra te exemplificar\nhttps://codepen.io/nick-gabe/pen/OJrmdoW…\n\nBlock: gera uma quebra de linha antes e depois do elemento\n\nInline: ele se mantém na própria linha, porém não aceita altura nem largura\n\nInline-block: ele se mantém na linha, mas aceita altura e largura",
+    "image": "https://pbs.twimg.com/media/F51w8E9W0AAfg9R.jpg:large"
   }
 ]
