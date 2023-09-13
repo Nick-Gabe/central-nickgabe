@@ -504,5 +504,16 @@
     "description": "https://codepen.io/nick-gabe/pen/OJrmdoW…\n\nBlock: gera uma quebra de linha antes e depois do elemento\n\nInline: ele se mantém na própria linha, porém não aceita altura nem largura\n\nInline-block: ele se mantém na linha, mas aceita altura e largura",
     "full": "Eu fiz um código rápido pra te exemplificar\nhttps://codepen.io/nick-gabe/pen/OJrmdoW…\n\nBlock: gera uma quebra de linha antes e depois do elemento\n\nInline: ele se mantém na própria linha, porém não aceita altura nem largura\n\nInline-block: ele se mantém na linha, mas aceita altura e largura",
     "image": "https://pbs.twimg.com/media/F51w8E9W0AAfg9R.jpg:large"
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1701946217951887535",
+    "date": "2023-09-13T13:09:33.000Z",
+    "url": "https://x.com/ImNickGabe/status/1701946217951887535",
+    "title": "Mais logs = Mais custo",
+    "description": "Dito isto, otimize seus logs\n- Esse log vai ser útil pro caso de um crash ou debug?\n- Apenas esse log já é uma info válida, ou ele precisa de outro log pra complementar?\n- Por quanto tempo esse log é útil pra mim?\n- Estou logando em pontos desnecessários?",
+    "full": "Mais logs = Mais custo\n\nDito isto, otimize seus logs\n- Esse log vai ser útil pro caso de um crash ou debug?\n- Apenas esse log já é uma info válida, ou ele precisa de outro log pra complementar?\n- Por quanto tempo esse log é útil pra mim?\n- Estou logando em pontos desnecessários?",
+    "image": "https://pbs.twimg.com/media/F56GlnZX0AA5Shx.jpg:large"
   }
 ]
