@@ -48,10 +48,20 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "falcao-g",
+      "name": "Falcão",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60127788?v=4",
+      "profile": "https://falbot.netlify.app/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "files": [
     "README.md"
   ],
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
