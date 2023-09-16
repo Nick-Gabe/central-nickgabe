@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     canonical: url,
   },
   description,
+  icons: {
+    icon: './icons/logo.svg',
+  },
   metadataBase: new URL(url),
   openGraph: {
     description,
