@@ -14,12 +14,14 @@ export const metadata: Metadata = {
     canonical: url,
   },
   description,
+  icons: {
+    apple: './metadata/apple-touch-icon.png',
+    icon: './metadata/favicon.ico',
+  },
   metadataBase: new URL(url),
   openGraph: {
     description,
-    images: [
-      /* TODO: Add images */
-    ],
+    images: ['./metadata/og-image.ico'],
     locale: 'pt-BR',
     siteName: title,
     title,
@@ -31,9 +33,7 @@ export const metadata: Metadata = {
     creator: '@ImNickGabe',
     creatorId: '930575742060154885',
     description,
-    images: [
-      /* TODO: Add images */
-    ],
+    images: ['./metadata/og-image.ico'],
     title,
   },
 };
