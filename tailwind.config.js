@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     backgroundColor: {
       black: '#121111',
+      brightPrimary: '#FF70A0',
       brightPurple: '#4D4577',
       primary: '#FE3B7B',
       purple: '#393359',
@@ -17,6 +18,7 @@ module.exports = {
     },
     borderColor: {
       black: '#000000',
+      brightPrimary: '#FF70A0',
       brightPurple: '#4D4577',
       primary: '#FE3B7B',
       purple: '#393359',
@@ -27,6 +29,7 @@ module.exports = {
     },
     colors: {
       black: '#121111',
+      brightPrimary: '#FF70A0',
       neutral: '#F2F2F2',
       primary: '#FE3B7B',
       white: '#FFFFFF',

@@ -25,9 +25,13 @@
 }
 
 .ant-pagination-item-active {
-  @apply bg-brightPurple border-primary border-2 !important;
+  @apply bg-transparent border-brightPrimary border-2 !important;
 }
 .ant-pagination-item-active a {
+  @apply text-brightPrimary !important;
+}
+
+:is(.ant-pagination-next,.ant-pagination-prev):not([disabled]):is(:hover,:focus) svg {
   @apply text-primary !important;
 }
 
@@ -51,7 +55,6 @@
   @apply text-2xl relative !important;
 }
 
-.ant-pagination-item:not(.ant-pagination-item-active):is(:hover,:focus),
 .ant-pagination-item:not(.ant-pagination-item-active):is(:hover,:focus) {
   @apply bg-brightPurple !important;
 }
@@ -69,7 +72,7 @@
 
 .ant-pagination-item:not(.ant-pagination-item-active) a,
 .ant-pagination-item-ellipsis {
-  @apply text-white text-opacity-50 !important;
+  @apply text-white text-opacity-60 !important;
 }
 
 .solidShadow {
