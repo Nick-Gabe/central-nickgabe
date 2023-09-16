@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import type { PostProps } from './postCardTypes';
+import { Tag } from '@components/Tag/Tag';
+import { TagNames } from '@components/Tag/tagColors';
 import { TextWithHighlight } from '../TextWithHighlight/TextWithHighlight';
 import { format } from 'date-fns';
 import styles from './postCard.module.css';
@@ -48,20 +50,22 @@ export const PostCard = ({ post, search }: PostProps) => {
             <TextWithHighlight text={post.description} highlight={search} />
           </p>
 
-          <div className="flex items-center justify-between opacity-50 font-light">
-            <div className="flex items-center gap-3">
+          <div className="flex items-center justify-between opacity-60 font-light">
+            <div className="flex items-center gap-2 overflow-hidden w-[calc(100%-125px)]">
               <Image
-                className={styles.socialIcon}
+                className="opacity-50"
                 src={`/icons/post-types/${post.type}.svg`}
                 alt={`Esse conteúdo é ${post.type}`}
                 width={25}
                 height={25}
               />
+              {post.tags.map((tag) => (
+                <Tag key={tag} name={tag as TagNames} />
+              ))}
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 opacity-50">
               <time dateTime={post.date}>{formattedDate}</time>
               <Image
-                className={styles.socialIcon}
                 src={`/social/${post.social}.svg`}
                 alt={`Ícone da rede social ${post.social}`}
                 width={25}
