@@ -47,19 +47,29 @@
   @apply w-11 sm:w-12 !important;
 }
 
-:is(.ant-pagination-jump-next,.ant-pagination-jump-prev):is(:hover,:focus) {
-  @apply bg-white !important;
-}
 :is(.ant-pagination-jump-next,.ant-pagination-jump-prev):is(:hover,:focus) .anticon {
   @apply text-2xl relative !important;
 }
 
+.ant-pagination-item:not(.ant-pagination-item-active):is(:hover,:focus),
 .ant-pagination-item:not(.ant-pagination-item-active):is(:hover,:focus) {
-  @apply bg-white !important;
+  @apply bg-brightPurple !important;
 }
 
-:is(.ant-pagination-prev,.ant-pagination-next):not(.ant-pagination-disabled):is(:hover,:focus) {
-  @apply text-white;
+.ant-pagination-item-container {
+  top: 2px;
+  color: inherit;
+}
+
+:is(.ant-pagination-prev,.ant-pagination-next):not(.ant-pagination-disabled):is(:hover,:focus),
+.ant-pagination-item:not(.ant-pagination-item-active):is(:hover,:focus) a,
+.ant-pagination-item-container .anticon {
+  @apply text-white !important;
+}
+
+.ant-pagination-item:not(.ant-pagination-item-active) a,
+.ant-pagination-item-ellipsis {
+  @apply text-white text-opacity-50 !important;
 }
 
 .solidShadow {
