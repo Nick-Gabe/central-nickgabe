@@ -8,7 +8,11 @@
     "title": "Opa dev! tu sabe o que é SSH e como ele funciona?",
     "description": "É um lance bem implementado na maioria das plataformas como Github, Gitlab e outras, e uma forma bem mais segura de fazer conexões sem sequer usar uma senha!!",
     "full": "Opa dev! tu sabe o que é SSH e como ele funciona?\n\nÉ um lance bem implementado na maioria das plataformas como Github, Gitlab e outras, e uma forma bem mais segura de fazer conexões sem sequer usar uma senha!!\nUm outro ponto que esqueci de mencionar: tu pode deletar a chave QUANDO QUISER!!\n\nEntão se ela vazou por algum motivo, é só ir e deletar, pronto. Mas se fosse com uma senha... aí o negócio ia complicar... 😄\n\nAqui tá como adicionar uma chave SSH no Github\nminha mãe viu o vídeo e me xingou pq o guarda roupa tá bagunçado, mal sabe ela que essa bagunça já faz parte do cenário cotidiano dos meus vídeos kkkkkkkk",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1650962719552544768/pu/img/8InoM8RyXW3kGF8C.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1650962719552544768/pu/img/8InoM8RyXW3kGF8C.jpg:large",
+    "tags": [
+      "git",
+      "cybersec"
+    ]
   },
   {
     "type": "text",
@@ -19,7 +23,8 @@
     "title": "Essa é bacana hein, acreditem ou não, fusão de emojis é real hahahah!fiquei com aquele negócio do console.log(\"👨‍👩‍👧‍👦\") na cabeça.",
     "description": "e deu com inveja do @ImNickGabe tbm então eu resolvi gravar um vídeo mostrando o rosto, \n\nmas diferente do nick, eu não sei falar de coisa séria kkkkkkkkkkkkkk",
     "full": "Essa é bacana hein, acreditem ou não, fusão de emojis é real hahahah!fiquei com aquele negócio do console.log(\"👨‍👩‍👧‍👦\") na cabeça.\n\ne deu com inveja do @ImNickGabe tbm então eu resolvi gravar um vídeo mostrando o rosto, \n\nmas diferente do nick, eu não sei falar de coisa séria kkkkkkkkkkkkkk\nNo fim emojis são strings, e alguns emojis, são \"modifier\" de outros\n\nSe você literalmente cocatenar o codígo dos emojis eles fazem o output de outro\n\ntipo isso",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1651278564048748572/pu/img/hFgLK4VnAVZy_z-u.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1651278564048748572/pu/img/hFgLK4VnAVZy_z-u.jpg:large",
+    "tags": []
   },
   {
     "type": "text",
@@ -30,7 +35,10 @@
     "title": "Tu usa git? deixa eu te contar uma história então 👨‍🚀",
     "description": "",
     "full": "Tu usa git? deixa eu te contar uma história então 👨‍🚀\nessa escola aqui perto tá tendo gincana faz semanas alguém me ajuda",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1646882653570727941/pu/img/Yppnur-m4yfmM7ow.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1646882653570727941/pu/img/Yppnur-m4yfmM7ow.jpg:large",
+    "tags": [
+      "git"
+    ]
   },
   {
     "type": "image",
@@ -41,7 +49,10 @@
     "title": "Neste episódio do DNE @wmsbill conversa com @ImNickGabe um jovem prodígio de 18 anos em programação.",
     "description": "Nick conta como se interessou pela área e como o Twitter o ajudou a chegar onde está.\n\nEp completo: https://mla.bs/23514ca7\n\n  #bolhadev",
     "full": "Neste episódio do DNE @wmsbill conversa com @ImNickGabe um jovem prodígio de 18 anos em programação. \n\nNick conta como se interessou pela área e como o Twitter o ajudou a chegar onde está.\n\nEp completo: https://mla.bs/23514ca7\n\n  #bolhadev",
-    "image": "https://pbs.twimg.com/media/FuznbT1XoAAlHsM.jpg:large"
+    "image": "https://pbs.twimg.com/media/FuznbT1XoAAlHsM.jpg:large",
+    "tags": [
+      "pessoal"
+    ]
   },
   {
     "type": "image",
@@ -52,7 +63,10 @@
     "title": "🚨 Revelação de Convidado!",
     "description": "Desenvolvedor Fullstack em uma startup na Suiça! Amanhã teremos a honra de conhecer um pouco mais sobre a história do Nícolas (@ImNickGabe) e qual foi sua tragetória até chegar onde está.\n\nO episódio será quarta-feira às 20h Ao Vivo no YouTube! (19/04)",
     "full": "🚨 Revelação de Convidado!\n\nDesenvolvedor Fullstack em uma startup na Suiça! Amanhã teremos a honra de conhecer um pouco mais sobre a história do Nícolas (@ImNickGabe) e qual foi sua tragetória até chegar onde está.\n\nO episódio será quarta-feira às 20h Ao Vivo no YouTube! (19/04)",
-    "image": "https://pbs.twimg.com/media/FuBmeP6WAAAwRnc.jpg:large"
+    "image": "https://pbs.twimg.com/media/FuBmeP6WAAAwRnc.jpg:large",
+    "tags": [
+      "pessoal"
+    ]
   },
   {
     "type": "text",
@@ -63,7 +77,10 @@
     "title": "o daora de compartilhar conhecimento é que no percurso o pessoal tbm ensina coisas que eles sabem, por exemplo isso de snippet, achei super super super útil!90% desses aí já tá no sangue kkkk",
     "description": "Agora, oq passei a usar que aumentou muito a produtividade foram os snipets.\n\nSe é algo q vejo q vai repetir o padrão em algum momento: snipet.",
     "full": "o daora de compartilhar conhecimento é que no percurso o pessoal tbm ensina coisas que eles sabem, por exemplo isso de snippet, achei super super super útil!90% desses aí já tá no sangue kkkk\n\nAgora, oq passei a usar que aumentou muito a produtividade foram os snipets.\n\nSe é algo q vejo q vai repetir o padrão em algum momento: snipet.\nissoooo, notei enquanto testava pela primeira vez kkk, mas mesmo assim é muito bom bixo, vlw por ter compartilhado",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1589276714995257349/pu/img/TakEOqdrSv8A8KHy.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1589276714995257349/pu/img/TakEOqdrSv8A8KHy.jpg:large",
+    "tags": [
+      "vscode"
+    ]
   },
   {
     "type": "text",
@@ -74,7 +91,10 @@
     "title": "🧵 THREAD DE ATALHOS DO VSCODE QUE EU USO",
     "description": "Vem comigo e bora turbinar esse seu desempenho aí.",
     "full": "🧵 THREAD DE ATALHOS DO VSCODE QUE EU USO\n\nVem comigo e bora turbinar esse seu desempenho aí.\n1º Esse é o mais clássico e o que mais me foi útil\n\nCTRL + ;\n\nEle coloca e retira comentários de linha, assim você pode comentar ou descomentar trechos de código super facilmente e independente da linguagem.\n2º Sabe quando tu quer remover uma linha mas ir segurando backspace demora?\n\nPra isso temos o\nCTRL + SHIFT + K\n\nEle remove sua linha atual, ou caso tenha selecionado, múltiplas linhas! É melhor do que recortar, pois assim não polui seu Ctrl + V.",
-    "image": "https://pbs.twimg.com/media/Fg1L-Z_XoAESLnI.png:large"
+    "image": "https://pbs.twimg.com/media/Fg1L-Z_XoAESLnI.png:large",
+    "tags": [
+      "vscode"
+    ]
   },
   {
     "type": "text",
@@ -85,7 +105,10 @@
     "title": "Opa dev! Chegando aqui com uma curiosidade de typescript aqui procês!",
     "description": "Imagine que temos um array de status tipo \"success\", \"error\"...\nSeu tipo inferido é string[], porém esse é um array que não pretendo mudar em runtime. 🤔\n\nPra isso existe o operador \"as const\"! Xo te explicar:",
     "full": "Opa dev! Chegando aqui com uma curiosidade de typescript aqui procês!\n\nImagine que temos um array de status tipo \"success\", \"error\"...\nSeu tipo inferido é string[], porém esse é um array que não pretendo mudar em runtime. 🤔\n\nPra isso existe o operador \"as const\"! Xo te explicar:\nEsse próprio exemplo da foto foi uma situação real de um amigo, é bacana quando tu quer armazenar uma lista de opções mas não quer ir pro caminho do enum por exemplo, aí tu mantém teus valores podendo fazer operações com eles, e garante uma tipagem completa tbm",
-    "image": "https://pbs.twimg.com/media/FrXsTAkWYAAsfvH.jpg:large"
+    "image": "https://pbs.twimg.com/media/FrXsTAkWYAAsfvH.jpg:large",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -96,7 +119,10 @@
     "title": "🧑‍🏭 Quer encurtar suas classes do Typescript?",
     "description": "Ao invés de declarar as props do construtor uma a uma como na esquerda, tipe elas como private ou public dentro dos próprios parâmetros da função e eles serão automaticamente adicionados como propriedades!",
     "full": "🧑‍🏭 Quer encurtar suas classes do Typescript?\n\nAo invés de declarar as props do construtor uma a uma como na esquerda, tipe elas como private ou public dentro dos próprios parâmetros da função e eles serão automaticamente adicionados como propriedades!\nPara tipos dentro de objetos ou arrays por exemplo isso não funciona, nesse tipo de caso infelizmente ainda precisa ser redundante e fazer o \"assign\" dentro da função\npra quem tá se perguntando, o resultado compilado é literalmente igual ao que tu já esperava, porém a sintaxe TS em si fica menos verbosa pro dev :)",
-    "image": "https://pbs.twimg.com/media/FpRzxrxXsAIUKuH.jpg:large"
+    "image": "https://pbs.twimg.com/media/FpRzxrxXsAIUKuH.jpg:large",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -107,7 +133,10 @@
     "title": "🗣️ Sabe no vscode quando tu tem muitos imports faltando e importar um por um iria demorar?",
     "description": "Se liga na dica que eu tenho pra ti!",
     "full": "🗣️ Sabe no vscode quando tu tem muitos imports faltando e importar um por um iria demorar?\n\nSe liga na dica que eu tenho pra ti!\nhumildes tbm curtem a publicação no meu linkedinho",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1624133501745303565/pu/img/O-J05-kswoTgXN5G.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1624133501745303565/pu/img/O-J05-kswoTgXN5G.jpg:large",
+    "tags": [
+      "vscode"
+    ]
   },
   {
     "type": "text",
@@ -116,9 +145,10 @@
     "date": "2023-02-03T16:44:43.000Z",
     "url": "https://twitter.com/ImNickGabe/status/1621856662763053056",
     "title": "vou ensinar um truque pra vocês:",
-    "description": "como achar pngs reais e fugir dos fakesO moço do açaí caiu...\nCaiu no PNG falso 😔",
-    "full": "vou ensinar um truque pra vocês:\ncomo achar pngs reais e fugir dos fakesO moço do açaí caiu...\nCaiu no PNG falso 😔\n❤️",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1621856365936271362/pu/img/JKTV2EQqpPlhuY3z.jpg:large"
+    "description": "como achar pngs reais e fugir dos fakes",
+    "full": "vou ensinar um truque pra vocês:\ncomo achar pngs reais e fugir dos fakes",
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1621856365936271362/pu/img/JKTV2EQqpPlhuY3z.jpg:large",
+    "tags": []
   },
   {
     "type": "text",
@@ -129,7 +159,10 @@
     "title": "existem situações onde não vale a pena desestruturar objetos",
     "description": "vamos supor que dentro de um objeto usuário tenho um id, name e loading\n\ntodas essas propriedades são muito *genéricas*, por isso nesses casos acho bom manter a referência original pra dar mais contexto",
     "full": "existem situações onde não vale a pena desestruturar objetos\n\nvamos supor que dentro de um objeto usuário tenho um id, name e loading\n\ntodas essas propriedades são muito *genéricas*, por isso nesses casos acho bom manter a referência original pra dar mais contexto\neu amo desestruturação inclusive, mas como mencionei, pra coisas genéricas tem de saber bem quando usar sem perder a referência de vista",
-    "image": "https://pbs.twimg.com/media/Fn7oeNfWAAANILa.jpg:large"
+    "image": "https://pbs.twimg.com/media/Fn7oeNfWAAANILa.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "text",
@@ -140,7 +173,11 @@
     "title": "Um tempo atrás alguém me disse que não sabia usar contextos no Typescript. Então fiz um códigozinho pra ensinar vocês como eu faço:",
     "description": "- Crio um tipo pras props do nosso contexto\n- Crio um objeto pra armazenar as props iniciais\n- Inicio o contexto com uma asserção",
     "full": "Um tempo atrás alguém me disse que não sabia usar contextos no Typescript. Então fiz um códigozinho pra ensinar vocês como eu faço:\n\n- Crio um tipo pras props do nosso contexto\n- Crio um objeto pra armazenar as props iniciais\n- Inicio o contexto com uma asserção\nvocê já usou React? É que context desta forma é específico dele, mas o conceito é de permitir que componentes utilizem estados de forma global",
-    "image": "https://pbs.twimg.com/media/Fm6YWDqXwAEaqEz.jpg:large"
+    "image": "https://pbs.twimg.com/media/Fm6YWDqXwAEaqEz.jpg:large",
+    "tags": [
+      "react",
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -151,7 +188,10 @@
     "title": "🦒 Você sabe uma diferença que rola por usar interface ao invés de um type com objeto no Typescript?",
     "description": "Se liga no vídeozinho explicando\n\ncc @sseraphini",
     "full": "🦒 Você sabe uma diferença que rola por usar interface ao invés de um type com objeto no Typescript?\n\nSe liga no vídeozinho explicando\n\ncc @sseraphini\nQuer mais dicas?\nMe segue lá na Twitch e ativa as notificações :D",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1613358281388441600/pu/img/7jffFD4OSPYG5Rx0.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1613358281388441600/pu/img/7jffFD4OSPYG5Rx0.jpg:large",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -162,7 +202,8 @@
     "title": "👇 Vídeo dando umas dicas sobre nomear funções",
     "description": "Mas claro que nomear coisas varia muito de situação pra situação, por isso é importante pensar em todo o contexto no qual será utilizado.Como programador uma das maiores dificuldades que eu tenho é em nomear coisas. Vocês que são mais experientes, como fazem para nomear?\n\n(Sem ser aquelas coisas básicas, verbo pra função, substantivo pra classe e bla bla. Já fiz a lição de casa)\n\n@sseraphini\n#bolhadev",
     "full": "👇 Vídeo dando umas dicas sobre nomear funções\n\nMas claro que nomear coisas varia muito de situação pra situação, por isso é importante pensar em todo o contexto no qual será utilizado.Como programador uma das maiores dificuldades que eu tenho é em nomear coisas. Vocês que são mais experientes, como fazem para nomear?\n\n(Sem ser aquelas coisas básicas, verbo pra função, substantivo pra classe e bla bla. Já fiz a lição de casa)\n\n@sseraphini\n#bolhadev\n😄 feliz em poder ajudar",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1611741452794470400/pu/img/kal8FWRaF7sfnX-x.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1611741452794470400/pu/img/kal8FWRaF7sfnX-x.jpg:large",
+    "tags": []
   },
   {
     "type": "text",
@@ -173,7 +214,10 @@
     "title": "🌿 Você sabe o que é REGEX?",
     "description": "🌿 Sabe as vantagens?\n🌿 E como utilizar ele?\n\n🧵Segue o fio que te explico!\ncc @sseraphini #bolhadev",
     "full": "🌿 Você sabe o que é REGEX?\n🌿 Sabe as vantagens?\n🌿 E como utilizar ele?\n\n🧵Segue o fio que te explico!\ncc @sseraphini #bolhadev\n🍃 O que é Regex?\n\nREGEX é um jeito de se dizer \"expressão regular\". Ele é utilizado para se achar combinações de letras, números e outros caracteres dentro de uma string.\n\nEle está em todo canto, e quando você descobre como utilizar percebe o quão útil é.\n🍃 Vantagens de se utilizar.\nRegex é ótimo em situações nas quais você não tem certeza sobre a string alvo. Então nesses casos você pode criar uma \"expressão genérica\" que vai se adequar muito melhor do que uma verificação complicada.\n\nUm exemplo disso:\nSem Regex // Com Regex\nApesar de ser ser um pouco mais difícil de se ler caso não tenha costume, ele te dá muito mais liberdade do que os métodos convencionais!\n\nJustamente por ele ser tão útil que hoje vou dar o meu melhor e tentar te ensinar um pouquinho do que sei.\nVamo lá? 😄\n🍃 Aulinha de Regex\nAntes de tudo, queria ressaltar que Regex é super completo, e se eu ensinasse tudo de cara ia ficar muito confuso, então desta vez eu vou abordar só o básico, e se vocês quiserem uma thread para a parte 2 só comentar aí.\n\nAgora sim, comecemos.",
-    "image": "https://pbs.twimg.com/media/FPwLb2yXwAcPwPY.png:large"
+    "image": "https://pbs.twimg.com/media/FPwLb2yXwAcPwPY.png:large",
+    "tags": [
+      "regex"
+    ]
   },
   {
     "type": "image",
@@ -184,7 +228,10 @@
     "title": "✨Dica de hoje:",
     "description": "Tu sabia que é possível passar uma função no método replace de uma string? \nÉ algo ótimo de se utilizar em conjunto com regex.\n\ncc @sseraphini #bolhadev",
     "full": "✨Dica de hoje:\nTu sabia que é possível passar uma função no método replace de uma string? \nÉ algo ótimo de se utilizar em conjunto com regex.\n\ncc @sseraphini #bolhadev",
-    "image": "https://pbs.twimg.com/media/FWDkPSWX0AEXxNU.jpg:large"
+    "image": "https://pbs.twimg.com/media/FWDkPSWX0AEXxNU.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "text",
@@ -195,7 +242,11 @@
     "title": "📚 No ramo de dev web tem muita coisa pra se aprender... e pensando nisso fiz uma listinha geral pra te ajudar, você sendo back, front ou full! :)",
     "description": "Isso levou bastaaante tempo, espero de verdade que te dê uma ajuda❤️",
     "full": "📚 No ramo de dev web tem muita coisa pra se aprender... e pensando nisso fiz uma listinha geral pra te ajudar, você sendo back, front ou full! :)\n\nIsso levou bastaaante tempo, espero de verdade que te dê uma ajuda❤️\nAntes de tudo, se puder compartilhar eu fico super super grato, eu faço esses conteúdos pq acho legal ver o pessoal aprendendo, mas ter um feedback positivo me deixa super mais animado pra continuar investindo nisso😄\nA listinha vai funcionar da seguinte maneira:\nJunto do tópico, eu vou colocar alguns links pra poder ler e aprender mais caso se interesse.\n\nAlgumas tecnologias não estão aqui, pq eu não queria falar sobre o que eu não tenho domínio, mas sinta-se livre pra complementar!! :D\nVamos iniciar por um dos maiores!!\nNPM, o famoso Node Package Manager\n\n(Artigo) O que é npm: https://bit.ly/oqueenpm\n(Vídeo) Introdução ao npm: https://bit.ly/introducaonpm",
-    "image": "https://pbs.twimg.com/media/FdYc1xQWIA0aesZ.jpg:large"
+    "image": "https://pbs.twimg.com/media/FdYc1xQWIA0aesZ.jpg:large",
+    "tags": [
+      "frontend",
+      "backend"
+    ]
   },
   {
     "type": "image",
@@ -206,7 +257,10 @@
     "title": "Eai aprendiz de React, o useState talvez você já conheça, mas já testou o useReducer? 🤔",
     "description": "✨ Tu pode imaginar ele como um \"setter\" de classe, onde você pode controlar a lógica do valor que será guardado, ao invés de ir direto como no useState!",
     "full": "Eai aprendiz de React, o useState talvez você já conheça, mas já testou o useReducer? 🤔\n\n✨ Tu pode imaginar ele como um \"setter\" de classe, onde você pode controlar a lógica do valor que será guardado, ao invés de ir direto como no useState!",
-    "image": "https://pbs.twimg.com/media/Fd7ftNWWAAEVGz7.jpg:large"
+    "image": "https://pbs.twimg.com/media/Fd7ftNWWAAEVGz7.jpg:large",
+    "tags": [
+      "react"
+    ]
   },
   {
     "type": "text",
@@ -217,7 +271,10 @@
     "title": "👀 Tu sabe como ativar o Browser nativo do Vscode? É super prático e rápido, aqui tá um vídeozinho curto mostrando!",
     "description": "cc @sseraphini",
     "full": "👀 Tu sabe como ativar o Browser nativo do Vscode? É super prático e rápido, aqui tá um vídeozinho curto mostrando!\n\ncc @sseraphini\nsiga meu canal na twitch! é esse aqui ó",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1613358884239937537/pu/img/cTLHat_SKkwqgL8C.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1613358884239937537/pu/img/cTLHat_SKkwqgL8C.jpg:large",
+    "tags": [
+      "vscode"
+    ]
   },
   {
     "type": "text",
@@ -228,7 +285,10 @@
     "title": "🤩 Tu sabia que o scroll do vscode é melhor que um ctrl+F?",
     "description": "💡 Pois se você clicar em uma variável, o seu slider vai automaticamente mostrar onde ela está sendo usada e onde foi declarada dentro do arquivo:",
     "full": "🤩 Tu sabia que o scroll do vscode é melhor que um ctrl+F?\n\n💡 Pois se você clicar em uma variável, o seu slider vai automaticamente mostrar onde ela está sendo usada e onde foi declarada dentro do arquivo:\nKKKKKKKKKK GENIAL",
-    "image": "https://pbs.twimg.com/media/FvpS704WwAAYtdC.jpg:large"
+    "image": "https://pbs.twimg.com/media/FvpS704WwAAYtdC.jpg:large",
+    "tags": [
+      "vscode"
+    ]
   },
   {
     "type": "text",
@@ -239,7 +299,10 @@
     "title": "🫖 Tu sabe a origem do protocolo \"I'm a teapot\"?",
     "description": "É um lance bem aleatório, senta que eu te conto kkk",
     "full": "🫖 Tu sabe a origem do protocolo \"I'm a teapot\"?\nÉ um lance bem aleatório, senta que eu te conto kkk\ndefinitivamente fazer vídeo com celular é mt mais complicado, compilação de erros de gravação",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1653162282904420352/pu/img/njlwrDvWZNKDtJkd.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1653162282904420352/pu/img/njlwrDvWZNKDtJkd.jpg:large",
+    "tags": [
+      "back"
+    ]
   },
   {
     "type": "text",
@@ -250,7 +313,10 @@
     "title": "🌞🧵 Fato gigatônico de hoje:",
     "description": "Existem dois jeitos de atribuir listeners em algo no Javascript, usando addEventListener ou uma atribuição!\n\nUsando addEventListeners, você pode adicionar muitas funções no mesmo evento se quiser\n\nMas via atribuição, ele sempre sobrepõe o existente!",
     "full": "🌞🧵 Fato gigatônico de hoje:\n\nExistem dois jeitos de atribuir listeners em algo no Javascript, usando addEventListener ou uma atribuição!\n\nUsando addEventListeners, você pode adicionar muitas funções no mesmo evento se quiser\n\nMas via atribuição, ele sempre sobrepõe o existente!\nPorém o listener salva por referência, ou seja, se você tem 3 listeners mas todos referenciam a mesma função, fica tranquilo que ela não vai ser duplicada!\n\nNesse exemplo, todos os 3 usam a função \"log\", porém como só existe 1 função \"log\", apenas 1 deles é executado!\nMas afinal, por que isso é interessante?\nPorque você pode estar com um memory leak sem nem saber! Veja abaixo por exemplo:\n\nSuper inofensivo, porém lembra que eu falei que o listener salva por referência? Esse não tem!\n\nEntão se a função addListeners for executada + de uma vez...",
-    "image": "https://pbs.twimg.com/media/FuGnoEKXsAsvCv4.jpg:large"
+    "image": "https://pbs.twimg.com/media/FuGnoEKXsAsvCv4.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "text",
@@ -261,7 +327,8 @@
     "title": "💻 Falando de computadores, algo é realmente aleatório?",
     "description": "É um lance que muitas pessoas nunca pararam pra pensar ou questionar, mas na real envolve muita coisa por trás! 🤔\n\nSe liga no vídeo que eu te explico esse negócio! :)",
     "full": "💻 Falando de computadores, algo é realmente aleatório?\n\nÉ um lance que muitas pessoas nunca pararam pra pensar ou questionar, mas na real envolve muita coisa por trás! 🤔\n\nSe liga no vídeo que eu te explico esse negócio! :)\nashuashua pior que é uma coisa realmente filosófica, transcende computadores",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1660689663303008270/pu/img/Q3cBon9fl4Zb5eR7.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1660689663303008270/pu/img/Q3cBon9fl4Zb5eR7.jpg:large",
+    "tags": []
   },
   {
     "type": "text",
@@ -272,7 +339,10 @@
     "title": "👱‍♂️ Tu sabe o que é uma tupla?",
     "description": "Sabe o motivo de bibliotecas como o React a utilizarem?\n\nVem comigo que eu te explico um pouco desse negócio aí no contexto de Javascript!",
     "full": "👱‍♂️ Tu sabe o que é uma tupla? \nSabe o motivo de bibliotecas como o React a utilizarem?\n\nVem comigo que eu te explico um pouco desse negócio aí no contexto de Javascript!\nSó me corrigindo, nas parte que falei \"usuário\", eu estava me referindo ao dev haha, não o usuário da aplicação, mas sim ao usuário da biblioteca 😂",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1659227144029970433/pu/img/8BFusCSuiPcJyuMU.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1659227144029970433/pu/img/8BFusCSuiPcJyuMU.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "text",
@@ -283,7 +353,10 @@
     "title": "🧵 A evolução do meu setup, desde o início!",
     "description": "Pra eu guardar e rever daqui um ano",
     "full": "🧵 A evolução do meu setup, desde o início!\nPra eu guardar e rever daqui um ano\nMeu primeiro computador nem era meu, já que eu era uma criança de 6 anos (2010) e usava o pc do meu padrasto pra ficar jogando.\n\nMas foi com eles que eu tive meu primeiro contato com inglês por meio de jogos. Não entendia quase nada, mas esse é o início da história.",
-    "image": "https://pbs.twimg.com/media/FwNWLTYXsAU9kyK.jpg:large"
+    "image": "https://pbs.twimg.com/media/FwNWLTYXsAU9kyK.jpg:large",
+    "tags": [
+      "pessoal"
+    ]
   },
   {
     "type": "text",
@@ -294,7 +367,11 @@
     "title": "😀 Galera, eu vi que recentemente o pessoal tá com uma dificuldade de centralizar div, então vim aqui ensinar pra vocês como se faz!",
     "description": "É algo bem fácil e bobinho, se liga no vídeo-tutorial!",
     "full": "😀 Galera, eu vi que recentemente o pessoal tá com uma dificuldade de centralizar div, então vim aqui ensinar pra vocês como se faz!\n\nÉ algo bem fácil e bobinho, se liga no vídeo-tutorial!\ninclusive esse é o novo cenário gente\nvou botar mais coisa ainda, aguardem",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1655956262855802881/pu/img/HsBfkFUIaIDK-GLE.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1655956262855802881/pu/img/HsBfkFUIaIDK-GLE.jpg:large",
+    "tags": [
+      "meme",
+      "css"
+    ]
   },
   {
     "type": "text",
@@ -305,7 +382,10 @@
     "title": "Mas afinal, o que são type-guards no Typescript?",
     "description": "Eles servem para validar seus tipos de uma forma mais abstraída e reutilizável.\n\n🧵 Vem comigo nessa thread que eu vou te explicar um pouquinho mais sobre isso!\n\ncc @sseraphini #typescript",
     "full": "Mas afinal, o que são type-guards no Typescript?\n\nEles servem para validar seus tipos de uma forma mais abstraída e reutilizável.\n\n🧵 Vem comigo nessa thread que eu vou te explicar um pouquinho mais sobre isso!\n\ncc @sseraphini #typescript\nPrimeiro a gente precisa entender o propósito de um type guard.\n\nSabe quando você tem uma variável que pode ter vários tipos? Tipo X, Y, Z...\n\nO type guard é uma função criada por você, que pode ser utilizada para dizer se algo é ou não é de um tipo esperado!\n\nNão sacou? Vem cá!\nTodo mundo sabe que unknown é um dos pesadelos da tipagem, porque é complicado descobrir que tipo tal coisa tem em alguns cenários.\n\nPor exemplo, um *objeto {}* no JS é considerado:\n- do tipo objeto\n- não é null\n- não é um array\n\nimagina fazer 3 ifs pra descobrir o tipo toda vez?\nao invés disso, podemos criar um type-guard!\n\nele é uma função que retorna um boolean, e esse boolean é usado pro typescript saber se algo É ou NÃO É do tipo esperado.\n\nA gente comunica isso explicitando o retorno \"param is TipoEsperado\"\n\nVamos exemplificar com o objeto:",
-    "image": "https://pbs.twimg.com/media/FszKTuyXsAAioPE.jpg:large"
+    "image": "https://pbs.twimg.com/media/FszKTuyXsAAioPE.jpg:large",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -316,7 +396,10 @@
     "title": "⚡ Você sabia que dá pra ativar réguas no seu devtools pra poder visualizar melhor o posicionamento do seu css?",
     "description": "🧵 Segue o fio, é rapidinho\ncc @sseraphini",
     "full": "⚡ Você sabia que dá pra ativar réguas no seu devtools pra poder visualizar melhor o posicionamento do seu css?\n\n🧵 Segue o fio, é rapidinho\ncc @sseraphini\n1. Entre nas configs do devtools\n2. Desça até Elements / Elementos\n3. Ative a opção Rulers / Réguas\n\nE prontinho! Menos de um minuto né?\nAproveita e ativa uns negócios de utilidade pública tbm\n- Word wrap\n- Tema escuro kkk\n- color format (rgb/hex/hsl)\n\ne tenha um bom dia! <3",
-    "image": "https://pbs.twimg.com/media/FfS1Of9WYAEVedW.png:large"
+    "image": "https://pbs.twimg.com/media/FfS1Of9WYAEVedW.png:large",
+    "tags": [
+      "devtools"
+    ]
   },
   {
     "type": "text",
@@ -327,7 +410,10 @@
     "title": "🧵 1/2 - Tu conhece o operador &&= ?",
     "description": "Ele se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso",
     "full": "🧵 1/2 - Tu conhece o operador &&= ?\n\nEle se chama \"Logical AND assignment\" e verifica se algo é truthy, e executa a atribuição apenas caso seja.\n\nNo meu caso column e row podem ser nulos, e caso sejam eu não quero atribuir nenhum valor a eles, então esse operador verifica isso\n🧵 2/2 - Em português o literal fica estranho, mas minha tradução livre é \"Atribuição lógica verdadeira\"\n\nSe compararmos, aqui está usando o operador:\na &&= b\n\nE aqui como seria sem ele:\na && (a = b)\n\nÉ apenas uma forma de encurtar ifs ou validações existentes, mas ainda as faz.\nsim, conteúdo às 11 da noite\nolá pessoal noturno, como vão?",
-    "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large"
+    "image": "https://pbs.twimg.com/media/Fm9gZ4GWAAIg2DL.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "text",
@@ -338,7 +424,10 @@
     "title": "No typescript, como você faria uma função que retorna o próprio tipo que ela recebe? 🤔",
     "description": "- Se você não tipar, ela fica marcada como any\n- Se você tipar, ela fica com um tipo fixo\n\nÉ um dilema né?\n🧵 Mas relaxa, segue o fio que eu te ensino como fazer :)",
     "full": "No typescript, como você faria uma função que retorna o próprio tipo que ela recebe? 🤔\n\n- Se você não tipar, ela fica marcada como any\n- Se você tipar, ela fica com um tipo fixo\n\nÉ um dilema né?\n🧵 Mas relaxa, segue o fio que eu te ensino como fazer :)\nVamos supor que temos uma função que retorna o que lhe é enviada, ou seja se receber um array retorna um array, se receber um número retorna um número.\n\nMas como fazemos pro typescript inferir esses tipos ao invés de precisarmos declará-los?\n\npois se tentarmos deixar vazio...\nNo estado atual, caso enviemos um número, por exemplo, ele retorna \"any\".\n\nPois o typescript não entende que estamos apenas retornando o que recebemos de forma automática!\n\nComo você acha que solucionamos isso?\nVamos seguindo!\nAssim como quando criamos genéricos em tipos, sabia que também podemos criar genéricos em funções?\n\nNós podemos criar um genérico tipo e assimilá-lo ao nosso parâmetro, e também definí-lo como retorno!\n\nAssim a função irá aplicar tipos independente do que passarmos :D",
-    "image": ""
+    "image": "",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -349,7 +438,11 @@
     "title": "⌛️ Vou listar pra vocês todos os projetos que fiz desde que comecei a estudar programação há dois anos.",
     "description": "Se quiser umas ideias pode pegar por aqui!\n\n🧵 Vamo de thread.\ncc @sseraphini",
     "full": "⌛️ Vou listar pra vocês todos os projetos que fiz desde que comecei a estudar programação há dois anos.\n\nSe quiser umas ideias pode pegar por aqui!\n\n🧵 Vamo de thread.\ncc @sseraphini\n🚨 Eu não sou uma base, e muito menos você deve levar meus projetos como tal, cada um tem sua jornada!!\n\nO propósito do post é dar ideias de projetos pro pessoal, ter uma média do quanto eu criei, e também pra eu poder rever ele no futuro :)\nVou listar apenas o nome e o link pra ver mais, vou tentar deixar em ordem cronológica, mas n lembro de tudo kkkkk.\n\nChurrasquinhah Bot - https://discordbotlist.com/bots/churrasquinhah…\nEttiene Bot - https://top.gg/bot/837334611284590592…\nColor Ranker - https://npmjs.com/package/color-ranker…\nBad Apple -\n\"\"Snake\"\" - https://htmlpreview.github.io/?https://github.com/Nick-Gabe/Mini-Projects/blob/main/snake.html…\nGerador de Senha - https://htmlpreview.github.io/?https://github.com/Nick-Gabe/Mini-Projects/blob/main/passwordCreator.html…\nDate Stringifier - https://npmjs.com/package/date-stringifier…\nCampo minado - https://htmlpreview.github.io/?https://github.com/Nick-Gabe/Mini-Projects/blob/main/Minesweeper/minesweeper.html…\nSpeedM4th - https://htmlpreview.github.io/?https://github.com/Nick-Gabe/Mini-Projects/blob/main/SpeedM4th/index.html…\nDiscord UI Pure Css - https://htmlpreview.github.io/?https://github.com/Nick-Gabe/Mini-Projects/blob/main/DiscordMimic/index.html…\nCalc, a simple Calculator - https://nick-gabe.github.io/calc-website/\nLanding Page - https://nick-gabe.github.io/sunnyside-landing-page/…\nContador Compartilhável - https://nick-gabe.github.io/countdown-website/…\nSteam Discord RPC - https://github.com/Nick-Gabe/SteamRPC…\nBrawlstars api wrapper - https://npmjs.com/package/brawlstars-api.js…\nJS Polyfills -",
-    "image": ""
+    "image": "",
+    "tags": [
+      "frontend",
+      "pessoal"
+    ]
   },
   {
     "type": "text",
@@ -360,7 +453,10 @@
     "title": "☀️Ooopa pessoal! Bom dia!",
     "description": "Tudo certo com você?\n\nVim aqui de manhãzinha pra gente aprender um pouquinho de Typescript, que tal?\n\n🧵 Hoje vamos entender um pouco mais sobre o tipo unknown usando exemplos simples. Vamo que vamo!",
     "full": "☀️Ooopa pessoal! Bom dia!\nTudo certo com você?\n\nVim aqui de manhãzinha pra gente aprender um pouquinho de Typescript, que tal?\n\n🧵 Hoje vamos entender um pouco mais sobre o tipo unknown usando exemplos simples. Vamo que vamo!\n🤔 Primeiramente vamos estabelecer as diferenças entre o tipo any, eles são parecidos, mas não são iguais!\n\n(dessa vez dei um zoom pro pessoal do mobile kk, desculpa pela última)\nOk Nico, mas como fazemos o tratamento de um tipo do qual não conhecemos hmmm?\n\nE a resposta é: por meio de verificações, pra ter a certeza de que ele realmente possui o tipo que esperamos! 😄\nMas e se forem tipos mais complexos, como um array ou até um objeto? 👻👻\n\nVamo ver como que resolve esse problema!",
-    "image": ""
+    "image": "",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -371,7 +467,10 @@
     "title": "🎯 Fala dev, tu sabe maneiras de substituir um switch e até mesmo um if/else por algo mais simples?",
     "description": "Hoje vou te ensinar uma delas, com Object Literals!\n🧵- Sigam-me os bons!\ncc @sseraphini #bolhadev",
     "full": "🎯 Fala dev, tu sabe maneiras de substituir um switch e até mesmo um if/else por algo mais simples?\n\nHoje vou te ensinar uma delas, com Object Literals!\n🧵- Sigam-me os bons!\ncc @sseraphini #bolhadev\n🤔 Dessa vez eu vou presumir que tu já saiba um if/else e switch por ter aberto esta thread, mas caso tu não saiba acho que por enquanto este post não é pra ti. :/\n\nAgora sim, vamos seguir em frente pq vai ser rapidinho, simbora.\nBem, para fins de exemplificar, primeiro vamos estruturar 1 switch e 1 if/else que façam a mesma tarefa. 📑\n\nNeste caso a tarefa do código é simples:\n- Sortear um número aleatório de 1 a 10 e imprimir ele por extenso no console.\n\nAqui temos a versão\nif/else || switch",
-    "image": "https://pbs.twimg.com/tweet_video_thumb/FQOyHFnWQAU6i_F.jpg:large"
+    "image": "https://pbs.twimg.com/tweet_video_thumb/FQOyHFnWQAU6i_F.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "image",
@@ -382,7 +481,10 @@
     "title": "Galera, fui só eu ou vcs tbm demoraram pra descobrir que tinha como especificar altura e largura no radius da borda? tô me sentindo lerdo aqui kkkk",
     "description": "#bolhadev #css #100DaysOfCode",
     "full": "Galera, fui só eu ou vcs tbm demoraram pra descobrir que tinha como especificar altura e largura no radius da borda? tô me sentindo lerdo aqui kkkk\n\n#bolhadev #css #100DaysOfCode",
-    "image": "https://pbs.twimg.com/media/FOddwiqX0BE8eql.jpg:large"
+    "image": "https://pbs.twimg.com/media/FOddwiqX0BE8eql.jpg:large",
+    "tags": [
+      "css"
+    ]
   },
   {
     "type": "text",
@@ -393,7 +495,10 @@
     "title": "✨ Opa Dev typescript, se liga nessa aqui!!",
     "description": "Tem um operador novo na área chamado satisfies, e mesmo recente já promete bastante viu 👀\n\n📚 Fiz um vídeozinho rápido pra te ensinar sobre o assunto e as vantagens que ele possui comparado com o que temos atualmente!",
     "full": "✨ Opa Dev typescript, se liga nessa aqui!!\nTem um operador novo na área chamado satisfies, e mesmo recente já promete bastante viu 👀\n\n📚 Fiz um vídeozinho rápido pra te ensinar sobre o assunto e as vantagens que ele possui comparado com o que temos atualmente!\nlike e rt ajuda tbm 🥺❤️\n\ne relaxa que jajá estamos com um fundo diferente, sem essa luminosidade natural cegante aushaush\ne inclusive, bad news pra quem estiver animado, mas o eslint ainda não tem suporte! porém estão trabalhando nisso",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1595125926999822336/pu/img/_mufJeR6ujyhgNfh.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1595125926999822336/pu/img/_mufJeR6ujyhgNfh.jpg:large",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "text",
@@ -404,7 +509,10 @@
     "title": "⚡️ Opa dev! Me diz um negócio:",
     "description": "- Você sabe utilizar os shorthands de direção no CSS?\n- Ainda não? Poxa... mas relaxa que eu te cubro! Toma uma colinha aqui.\n\ncc @sseraphini",
     "full": "⚡️ Opa dev! Me diz um negócio:\n\n- Você sabe utilizar os shorthands de direção no CSS?\n- Ainda não? Poxa... mas relaxa que eu te cubro! Toma uma colinha aqui.\n\ncc @sseraphini\nrepostando pq o primeiro tinha um errinho ali no padding, eu havia invertido a ordem kjsksjk\n\nisso que dá fazer refatoração no meio da edição e não ser retrocompatível kkkkkkkkkk",
-    "image": "https://pbs.twimg.com/media/FgzapzYXEAE4vhV.png:large"
+    "image": "https://pbs.twimg.com/media/FgzapzYXEAE4vhV.png:large",
+    "tags": [
+      "css"
+    ]
   },
   {
     "type": "text",
@@ -415,7 +523,10 @@
     "title": "Ai ai esse negócio de compatibilidade... 😩",
     "description": "Mas sabe a real diferença dos dois como bordas?\n🧵Segue a thread 1/5\ncc @sseramemes @sseraphini",
     "full": "Ai ai esse negócio de compatibilidade... 😩\n\nMas sabe a real diferença dos dois como bordas?\n🧵Segue a thread 1/5\ncc @sseramemes @sseraphini\n🧵2/5\n-webkit-text-stroke é uma propriedade que define a borda de um texto, nela você escreve seu tamanho junto de sua cor, bem simples.\n\nMas não é um mar de rosas, pois ela insere a borda num tipo central, ou seja ele aplica metade da borda por dentro do texto e metade por fora.",
-    "image": "https://pbs.twimg.com/media/FSkWV5HWAAExzoc.jpg:large"
+    "image": "https://pbs.twimg.com/media/FSkWV5HWAAExzoc.jpg:large",
+    "tags": [
+      "css"
+    ]
   },
   {
     "type": "image",
@@ -426,7 +537,10 @@
     "title": "✨ Genéricos do Typescript",
     "description": "Quem são, onde vivem, do que se alimentam...\n\nIsso e mais eu ensino aqui no meu vídeo :)",
     "full": "✨ Genéricos do Typescript\nQuem são, onde vivem, do que se alimentam...\n\nIsso e mais eu ensino aqui no meu vídeo :)",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1676362515276546050/pu/img/pRRbwEgflL63BaVw.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1676362515276546050/pu/img/pRRbwEgflL63BaVw.jpg:large",
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "type": "image",
@@ -437,7 +551,11 @@
     "title": "Tu usa a famosa ✨border✨ pra verificar os elementos, mas não entende o porque eles mudam de tamanho ou se mexem?",
     "description": "Fiz um vídeozinho rápido pra explicar o motivo e também uma solução pra isso, chega mais :)",
     "full": "Tu usa a famosa ✨border✨ pra verificar os elementos, mas não entende o porque eles mudam de tamanho ou se mexem? \n\nFiz um vídeozinho rápido pra explicar o motivo e também uma solução pra isso, chega mais :)",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1693022355155525633/pu/img/Xmt30XxPup7veTib.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1693022355155525633/pu/img/Xmt30XxPup7veTib.jpg:large",
+    "tags": [
+      "css",
+      "ui"
+    ]
   },
   {
     "type": "image",
@@ -448,7 +566,10 @@
     "title": "depois que você começa a trabalhar ouvindo música... é um caminho sem volta",
     "description": "",
     "full": "depois que você começa a trabalhar ouvindo música... é um caminho sem volta",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1687090110334943233/pu/img/6fWW2AVFKB6d4Crj.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1687090110334943233/pu/img/6fWW2AVFKB6d4Crj.jpg:large",
+    "tags": [
+      "meme"
+    ]
   },
   {
     "type": "image",
@@ -459,7 +580,10 @@
     "title": "🐠 Seguindo um desafio do @bmacabeus, fiz esse vídeo tentando explicar o \"this\" do JavaScript pra uma criança.",
     "description": "cc @sseraphini",
     "full": "🐠 Seguindo um desafio do @bmacabeus, fiz esse vídeo tentando explicar o \"this\" do JavaScript pra uma criança.\n\ncc @sseraphini",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1604117463532281857/pu/img/7rwqExemP1WEpuW5.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1604117463532281857/pu/img/7rwqExemP1WEpuW5.jpg:large",
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "image",
@@ -470,7 +594,12 @@
     "title": "🗨️ Tu conhece aquele famoso bug do botão que quando se move, fica indo e voltando?",
     "description": "- É um bug conhecido já e visto em muitos sites por aí! \n\nMas hoje decidi tentar trazer uma solução pra vocês que é super simples, deixa eu te mostrar...",
     "full": "🗨️ Tu conhece aquele famoso bug do botão que quando se move, fica indo e voltando?\n\n- É um bug conhecido já e visto em muitos sites por aí! \n\nMas hoje decidi tentar trazer uma solução pra vocês que é super simples, deixa eu te mostrar...",
-    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1673899649222967296/pu/img/G5x_JZR6vdK35Z5G.jpg:large"
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1673899649222967296/pu/img/G5x_JZR6vdK35Z5G.jpg:large",
+    "tags": [
+      "ux",
+      "ui",
+      "frontend"
+    ]
   },
   {
     "type": "text",
@@ -481,7 +610,10 @@
     "title": "eu levo mais de 1 hora pra completar uma aula de 8 minutos da udemy",
     "description": "começo a assistir, a cada palavra importante nova eu pauso, tento pronunciar, testo no google tradutor, anoto. tento ver se consigo encaixar com outras palavras que aprendi...",
     "full": "eu levo mais de 1 hora pra completar uma aula de 8 minutos da udemy\n\ncomeço a assistir, a cada palavra importante nova eu pauso, tento pronunciar, testo no google tradutor, anoto. tento ver se consigo encaixar com outras palavras que aprendi...",
-    "image": ""
+    "image": "",
+    "tags": [
+      "pessoal"
+    ]
   },
   {
     "type": "image",
@@ -492,7 +624,10 @@
     "title": "vou contar uma história pra vocês de vocês de como eu descobri uma falha de segurança numa casa de apostas... segue a thread 🧵",
     "description": "",
     "full": "vou contar uma história pra vocês de vocês de como eu descobri uma falha de segurança numa casa de apostas... segue a thread 🧵",
-    "image": ""
+    "image": "",
+    "tags": [
+      "cybersec"
+    ]
   },
   {
     "type": "image",
@@ -503,7 +638,11 @@
     "title": "Eu fiz um código rápido pra te exemplificar",
     "description": "https://codepen.io/nick-gabe/pen/OJrmdoW…\n\nBlock: gera uma quebra de linha antes e depois do elemento\n\nInline: ele se mantém na própria linha, porém não aceita altura nem largura\n\nInline-block: ele se mantém na linha, mas aceita altura e largura",
     "full": "Eu fiz um código rápido pra te exemplificar\nhttps://codepen.io/nick-gabe/pen/OJrmdoW…\n\nBlock: gera uma quebra de linha antes e depois do elemento\n\nInline: ele se mantém na própria linha, porém não aceita altura nem largura\n\nInline-block: ele se mantém na linha, mas aceita altura e largura",
-    "image": "https://pbs.twimg.com/media/F51w8E9W0AAfg9R.jpg:large"
+    "image": "https://pbs.twimg.com/media/F51w8E9W0AAfg9R.jpg:large",
+    "tags": [
+      "html",
+      "css"
+    ]
   },
   {
     "type": "image",
@@ -514,6 +653,7 @@
     "title": "Mais logs = Mais custo",
     "description": "Dito isto, otimize seus logs\n- Esse log vai ser útil pro caso de um crash ou debug?\n- Apenas esse log já é uma info válida, ou ele precisa de outro log pra complementar?\n- Por quanto tempo esse log é útil pra mim?\n- Estou logando em pontos desnecessários?",
     "full": "Mais logs = Mais custo\n\nDito isto, otimize seus logs\n- Esse log vai ser útil pro caso de um crash ou debug?\n- Apenas esse log já é uma info válida, ou ele precisa de outro log pra complementar?\n- Por quanto tempo esse log é útil pra mim?\n- Estou logando em pontos desnecessários?",
-    "image": "https://pbs.twimg.com/media/F56GlnZX0AA5Shx.jpg:large"
+    "image": "https://pbs.twimg.com/media/F56GlnZX0AA5Shx.jpg:large",
+    "tags": []
   }
 ]
