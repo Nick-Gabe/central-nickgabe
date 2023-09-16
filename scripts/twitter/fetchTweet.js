@@ -80,10 +80,11 @@ const fetchTweet = async (url, params) => {
     url,
     date,
     image: image.startsWith(defaultImage) ? '' : image,
-    type: contentType,
+    type: contentType || 'text',
     full: threadAsText,
     title: params.title || firstTweet.slice(0, sliceEnd),
     description: params.description || firstTweet.slice(sliceEnd),
+    tags: params.tags.split(',').map((str) => str.trim()),
   };
 };
 

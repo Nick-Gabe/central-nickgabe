@@ -10,16 +10,22 @@ on:
         type: choice
         options:
           - twitter
-      tweetUrl:
-        description: "Url of the tweet to be added"
+      url:
+        description: "Url of the post to be added"
         required: true
+        type: string
+      tags:
+        description: "The post related tags separated by commas"
+        required: false
         type: string
       title:
         description: "You can override the post's title"
         required: false
+        type: string
       description:
         description: "You can override the post's description"
         required: false
+        type: string
 
 jobs:
   run-post-script:
@@ -44,7 +50,7 @@ jobs:
       run: yarn add puppeteer
 
     - name: Runs post script
-      run: npm run add-post ${{ github.event.inputs.social }} ${{ github.event.inputs.tweetUrl }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}"
+      run: npm run add-post ${{ github.event.inputs.social }} ${{ github.event.inputs.url }} -- --title="${{ github.event.inputs.title }}" --description="${{ github.event.inputs.description }}" --tags="${{ github.event.inputs.tags }}"
 
     # Commit changes
     - name: Commit and push if changed

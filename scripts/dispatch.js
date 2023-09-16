@@ -14,4 +14,4 @@ if (!url) {
   process.exit();
 }
 
-addPost({ social, url, params: paramsArray });
+addPost({ params, social, url });
