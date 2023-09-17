@@ -7,12 +7,8 @@ export async function GET(req: Request) {
   const search = searchParams.get('search') || '';
 
   try {
-    const regex = new RegExp(search, 'ig');
-
     const includesSearch = (text: string): boolean => {
-      return (
-        regex.test(text) || text.toLowerCase().includes(search.toLowerCase())
-      );
+      return text.toLowerCase().includes(search.toLowerCase());
     };
 
     const filteredPosts = posts
