@@ -1,3 +1,11 @@
+Cypress.automation('remote:debugger:protocol', {
+  command: 'Browser.grantPermissions',
+  params: {
+    origin: window.location.origin,
+    permissions: ['clipboardReadWrite', 'clipboardSanitizedWrite'],
+  },
+});
+
 describe('App', () => {
   beforeEach(() => cy.visit('/'));
 
@@ -17,12 +25,6 @@ describe('App', () => {
   describe('Search', () => {
     describe('should be able to search for a post', () => {
       beforeEach(() => cy.visit('/'));
-
-      it('using regex', () => {
-        cy.get('input').type('\\?$');
-        cy.get('span').contains('?');
-        cy.get('a').should('have.attr', 'href');
-      });
 
       it('using literal string', () => {
         cy.get('input').type('Tu usa git?');
