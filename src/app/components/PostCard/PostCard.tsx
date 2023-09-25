@@ -59,7 +59,7 @@ export const PostCard = ({ post, search }: PostProps) => {
                 width={25}
                 height={25}
               />
-              {post.tags.map((tag) => (
+              {post.tags?.map((tag) => (
                 <Tag key={tag} name={tag as TagNames} />
               ))}
             </div>
