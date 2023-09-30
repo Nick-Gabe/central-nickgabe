@@ -677,5 +677,16 @@
     "description": "Existem muitas formas de fazer e cada um tem suas favoritas, mas deixo aqui um exemplo simples, junto das explicações  https://twitter.com/ccedroo/status/1704837705228513556…",
     "full": "Paginação idealmente é sempre no Back pois roda no servidor e faz o computador do usuário mais feliz :)\n\nExistem muitas formas de fazer e cada um tem suas favoritas, mas deixo aqui um exemplo simples, junto das explicações  https://twitter.com/ccedroo/status/1704837705228513556…",
     "image": "https://pbs.twimg.com/media/F6j5s5MWMAANGFr.jpg:large"
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1708175674945552549",
+    "date": "2023-09-30T17:43:11.000Z",
+    "url": "https://x.com/ImNickGabe/status/1708175674945552549",
+    "title": "⌛ Tu sabe o que são polyfills?",
+    "description": "Um tempo atrás eu criei um projeto sobre isso e é algo muito divertido de se fazer, além de um bom desafio de lógica. No vídeo eu mostro como isso funciona!",
+    "full": "⌛ Tu sabe o que são polyfills?\n\nUm tempo atrás eu criei um projeto sobre isso e é algo muito divertido de se fazer, além de um bom desafio de lógica. No vídeo eu mostro como isso funciona!",
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1708174385431916544/pu/img/zND5b8UA0lqC4B46.jpg:large"
   }
 ]
