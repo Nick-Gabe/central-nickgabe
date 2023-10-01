@@ -2,7 +2,7 @@ const { cleanUrl, getId } = require('../utils/constants/patterns');
 const { writeFileSync, readFileSync } = require('fs');
 
 const saveTweet = (
-  { type, url, date, full, image, title, description },
+  { type, url, date, full, image, title, description, tags },
   callback,
   path = 'public/posts.json'
 ) => {
@@ -27,6 +27,7 @@ const saveTweet = (
     description: description.trim(),
     full: full.trim(),
     image: image,
+    tags: tags
   };
 
   console.debug(newPost);
