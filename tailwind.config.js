@@ -16,6 +16,9 @@ module.exports = {
       transparent: 'rgba(0,0,0,0)',
       white: '#F2F2F2',
     },
+    backgroundImage: {
+      wave: 'url(/extras/bg-wave.svg)',
+    },
     borderColor: {
       black: '#000000',
       brightPrimary: '#FF70A0',
@@ -33,11 +36,6 @@ module.exports = {
       neutral: '#F2F2F2',
       primary: '#FE3B7B',
       white: '#FFFFFF',
-    },
-
-    fontFamily: {
-      hammersmith: "'Hammersmith One', sans-serif",
-      inter: "'Inter', sans-serif",
     },
   },
 };

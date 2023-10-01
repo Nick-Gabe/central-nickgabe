@@ -1,8 +1,11 @@
 import './globals.css';
 import 'antd/dist/reset.css';
+import { PropsWithChildren, Suspense } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import { Background } from '@components/Background/Background';
+import { Inter } from 'next/font/google';
+import { Loading } from '@components/Loading/Loading';
 import { Metadata } from 'next';
-import { PropsWithChildren } from 'react';
 import { Providers } from '@components/Providers/Providers';
 
 const title = 'Central Nick Gabe';
@@ -38,12 +41,18 @@ export const metadata: Metadata = {
   },
 };
 
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['200', '400', '600', '700'],
+});
+
 export default function RootLayout(props: PropsWithChildren) {
   return (
     <html lang="pt">
-      <body className="bg-purple font-inter">
+      <body className={`bg-purple ${inter.className}`}>
         <Providers>
-          {props.children}
+          <Suspense fallback={<Loading />}>{props.children}</Suspense>
+          <Background />
           <Analytics />
         </Providers>
       </body>

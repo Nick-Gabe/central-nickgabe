@@ -8,7 +8,7 @@ import { format } from 'date-fns';
 import styles from './postCard.module.css';
 import { useMemo } from 'react';
 
-export const PostCard = ({ post, search }: PostProps) => {
+export const PostCard = ({ post, search, lazyLoad }: PostProps) => {
   const formattedDate = useMemo(() => {
     const date = new Date(post.date);
     return format(date, 'dd/MM/yyyy');
@@ -27,14 +27,16 @@ export const PostCard = ({ post, search }: PostProps) => {
             className="absolute h-full object-cover z-[-1] top-[-10%]"
             src={post.image}
             alt="Post banner"
-            width={1280}
-            height={720}
+            loading={lazyLoad ? 'lazy' : 'eager'}
+            width={479}
+            height={296}
           />
         ) : (
           <div className="absolute h-full object-cover z-[-1] top-[-10%] bg-[#333] w-full flex items-center justify-center">
             <Image
               src={`/social/${post.social}.svg`}
               alt={`Ícone da rede social ${post.social}`}
+              loading={lazyLoad ? 'lazy' : 'eager'}
               width={64}
               height={64}
             />

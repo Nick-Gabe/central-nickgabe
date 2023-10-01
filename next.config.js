@@ -8,8 +8,8 @@ const nextConfig = {
   },
   webpack(config) {
     config.module.rules.push({
-      test: /\.svg$/i,
       issuer: /\.[jt]sx?$/,
+      test: /\.svg$/i,
       use: ['@svgr/webpack'],
     });
 

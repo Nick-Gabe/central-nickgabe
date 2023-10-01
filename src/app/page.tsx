@@ -54,7 +54,6 @@ export default function Home({ searchParams }: { searchParams: Params }) {
         setLoading={setLoading}
         pageHooks={[page, setPage]}
       />
-      <Background />
     </main>
   );
 }
