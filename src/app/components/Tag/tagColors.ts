@@ -1,6 +1,6 @@
 export const tagColors = {
   babel: '#ffee92',
-  backend: '#1b0e6a',
+  backend: '#573399',
   bootstrap: '#7e13f7',
   css: '#08b0e3',
   cybersec: '#158fa5',
@@ -28,7 +28,7 @@ export const tagColors = {
   sql: '#ffda44',
   tailwind: '#18b7ba',
   typescript: '#377cc8',
-  ui: '#314b65',
+  ui: '#4a6ea2',
   ux: '#e83656',
   vscode: '#087bbb',
   webpack: '#1c78c1',

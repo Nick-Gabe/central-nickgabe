@@ -18,7 +18,7 @@ export const PostCard = ({ post, search }: PostProps) => {
     <Link
       href={post.url}
       target="_blank"
-      className={`flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0 transition-all duration-300 ease-in ${styles.container}`}
+      className={`flex flex-col justify-end relative rounded-3xl overflow-hidden min-h-[300px] border-2 translate-x-0 translate-y-0 transition-all duration-300 ease-in ${styles.container} group`}
       onClick={(e) => e.currentTarget.blur()}
     >
       <article>
@@ -50,7 +50,7 @@ export const PostCard = ({ post, search }: PostProps) => {
             <TextWithHighlight text={post.description} highlight={search} />
           </p>
 
-          <div className="flex items-center justify-between opacity-60 font-light">
+          <div className="flex items-center justify-between group-hover:opacity-100 opacity-60 font-light transition-opacity">
             <div className="flex items-center gap-2 overflow-hidden w-[calc(100%-125px)]">
               <Image
                 className="opacity-50"

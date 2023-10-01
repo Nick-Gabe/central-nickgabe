@@ -42,6 +42,7 @@ export const PostPages = (props: PostPagesProps) => {
         responsive
         onChange={setCurrentPage}
         hideOnSinglePage
+        showSizeChanger={false}
         prevIcon={<ArrowPrev className="w-10 text-brightPrimary" />}
         nextIcon={<ArrowNext className="w-10 text-brightPrimary" />}
         className="mt-4 mb-20 text-4xl font-bold bg-purple p-2 rounded-2xl overflow-hidden"
