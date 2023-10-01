@@ -654,7 +654,9 @@
     "description": "Dito isto, otimize seus logs\n- Esse log vai ser útil pro caso de um crash ou debug?\n- Apenas esse log já é uma info válida, ou ele precisa de outro log pra complementar?\n- Por quanto tempo esse log é útil pra mim?\n- Estou logando em pontos desnecessários?",
     "full": "Mais logs = Mais custo\n\nDito isto, otimize seus logs\n- Esse log vai ser útil pro caso de um crash ou debug?\n- Apenas esse log já é uma info válida, ou ele precisa de outro log pra complementar?\n- Por quanto tempo esse log é útil pra mim?\n- Estou logando em pontos desnecessários?",
     "image": "https://pbs.twimg.com/media/F56GlnZX0AA5Shx.jpg:large",
-    "tags": []
+    "tags": [
+      "backend"
+    ]
   },
   {
     "type": "image",
@@ -666,7 +668,9 @@
     "description": "Desenhei o Sprigatito usando CSS!",
     "full": "Algumas pessoas ficaram em dúvida sobre como eu faço esses desenhos, então aproveitei o pedido da @MikeleGuedes e gravei um vídeo mostrando o processo!\n\nDesenhei o Sprigatito usando CSS!",
     "image": "https://pbs.twimg.com/ext_tw_video_thumb/1704135483457200128/pu/img/ocy33rgaEKBfK0YC.jpg:large",
-    "tags": ["css"]
+    "tags": [
+      "css"
+    ]
   },
   {
     "type": "image",
@@ -678,7 +682,10 @@
     "description": "Existem muitas formas de fazer e cada um tem suas favoritas, mas deixo aqui um exemplo simples, junto das explicações  https://twitter.com/ccedroo/status/1704837705228513556…",
     "full": "Paginação idealmente é sempre no Back pois roda no servidor e faz o computador do usuário mais feliz :)\n\nExistem muitas formas de fazer e cada um tem suas favoritas, mas deixo aqui um exemplo simples, junto das explicações  https://twitter.com/ccedroo/status/1704837705228513556…",
     "image": "https://pbs.twimg.com/media/F6j5s5MWMAANGFr.jpg:large",
-    "tags": ["backend","frontend"]
+    "tags": [
+      "backend",
+      "frontend"
+    ]
   },
   {
     "type": "image",
@@ -690,7 +697,9 @@
     "description": "Um tempo atrás eu criei um projeto sobre isso e é algo muito divertido de se fazer, além de um bom desafio de lógica. No vídeo eu mostro como isso funciona!",
     "full": "⌛ Tu sabe o que são polyfills?\n\nUm tempo atrás eu criei um projeto sobre isso e é algo muito divertido de se fazer, além de um bom desafio de lógica. No vídeo eu mostro como isso funciona!",
     "image": "https://pbs.twimg.com/ext_tw_video_thumb/1708174385431916544/pu/img/zND5b8UA0lqC4B46.jpg:large",
-    "tags": ["javascript"]
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "type": "link",
@@ -702,6 +711,8 @@
     "description": "Super te convido pra leitura :)",
     "full": "🍃 Eu peguei a minha thread ensinando sobre Redux, formatei e reformulei boa parte do conteúdo! Agora está bem mais didático e em formato de blog!\n\nSuper te convido pra leitura :)",
     "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--ILZP6OxU--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/00fj2mcg5nync7lcvdbf.png",
-    "tags": ["redux"]
+    "tags": [
+      "redux"
+    ]
   }
 ]
