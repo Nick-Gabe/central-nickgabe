@@ -9,4 +9,5 @@ type Post = (typeof json)[0] & {
 export type PostProps = {
   post: Post;
   search: string;
+  lazyLoad: boolean;
 };
