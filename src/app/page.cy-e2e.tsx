@@ -1,3 +1,6 @@
+import { links } from './components/SocialProfiles/source';
+import { should } from 'chai';
+
 Cypress.automation('remote:debugger:protocol', {
   command: 'Browser.grantPermissions',
   params: {
@@ -65,5 +68,24 @@ describe('App', () => {
       'be.equal',
       'https://github.com/nick-gabe/central-nickgabe'
     );
+  });
+
+  describe('SocialProfiles', () => {
+    it('should render social profiles with correct attributes', () => {
+      links.forEach((social) => {
+        cy.get(`nav a[aria-label="Visite meu perfil no ${social.name}!"]`)
+          .should('have.attr', 'href', social.url)
+          .should('have.attr', 'target', '_blank')
+          .should('have.attr', 'rel', 'noopener noreferrer');
+      });
+    });
+
+    it('should render social profiles with correct icons', () => {
+      links.forEach((social) => {
+        cy.get(`nav a[aria-label="Visite meu perfil no ${social.name}!"]`)
+          .find('img')
+          .should('have.attr', 'alt', social.name);
+      });
+    });
   });
 });
