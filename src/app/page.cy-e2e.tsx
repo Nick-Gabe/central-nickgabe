@@ -1,5 +1,4 @@
 import { links } from './components/SocialProfiles/source';
-import { should } from 'chai';
 
 Cypress.automation('remote:debugger:protocol', {
   command: 'Browser.grantPermissions',
