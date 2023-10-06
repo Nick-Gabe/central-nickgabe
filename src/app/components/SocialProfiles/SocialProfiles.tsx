@@ -5,7 +5,7 @@ import { links } from './source';
 import styles from './social.module.css';
 
 export const SocialProfiles: React.FC = () => (
-  <section className="top-0 left-0 absolute z-20 p-4">
+  <nav className="top-0 left-0 absolute z-20 p-4">
     {links.map((social) => (
       <a
         aria-label={`Visite meu perfil no ${social.name}!`}
@@ -25,5 +25,5 @@ export const SocialProfiles: React.FC = () => (
         />
       </a>
     ))}
-  </section>
+  </nav>
 );
