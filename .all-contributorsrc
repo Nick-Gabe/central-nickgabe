@@ -57,6 +57,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "rwietter",
+      "name": "Maurício Witter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46854467?v=4",
+      "profile": "http://rwietterc.xyz",
+      "contributions": [
+        "code",
+        "test"
+      ]
     }
   ],
   "files": [
