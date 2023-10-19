@@ -714,5 +714,19 @@
     "tags": [
       "redux"
     ]
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1712932947035144537",
+    "date": "2023-10-13T20:46:53.000Z",
+    "url": "https://x.com/ImNickGabe/status/1712932947035144537",
+    "title": "🎋 Sabe quando você usa 100vh e percebe que em celulares ela acaba deixando um scroll?",
+    "description": "Existem medidas css que estão aqui justamente pra nos ajudar com esse problema e talvez tu ainda não saiba...\n\n🧵 Cola na thread que te explico!",
+    "full": "🎋 Sabe quando você usa 100vh e percebe que em celulares ela acaba deixando um scroll?\n\nExistem medidas css que estão aqui justamente pra nos ajudar com esse problema e talvez tu ainda não saiba...\n\n🧵 Cola na thread que te explico!",
+    "image": "https://pbs.twimg.com/media/F8WOP6mWAAA4frA.jpg:large",
+    "tags": [
+      "css"
+    ]
   }
 ]
