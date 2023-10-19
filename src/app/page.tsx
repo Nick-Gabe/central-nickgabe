@@ -5,6 +5,7 @@ import { Background } from './components/Background/Background';
 import { GithubCorner } from '@components/GithubCorner/GithubCorner';
 import { Posts } from './components/Posts/Posts';
 import { Search } from './components/Search/Search';
+import { SocialProfiles } from './components/SocialProfiles/SocialProfiles';
 import { Title } from './components/Title/Title';
 
 type Params = {
@@ -46,6 +47,7 @@ export default function Home({ searchParams }: { searchParams: Params }) {
   return (
     <main className="flex flex-col items-center min-h-screen sm:justify-center my-20">
       <GithubCorner />
+      <SocialProfiles />
       <Title />
       <Search search={search} setSearch={setSearch} setLoading={setLoading} />
       <Posts
