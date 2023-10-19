@@ -728,5 +728,19 @@
     "tags": [
       "css"
     ]
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1711413321990041690",
+    "date": "2023-10-09T16:08:27.000Z",
+    "url": "https://x.com/ImNickGabe/status/1711413321990041690",
+    "title": "💡Alo galera do typescript",
+    "description": "- Vamos supor que eu tenho um array de opções fixas\n- E eu tenho uma variável cujo valor deve ser uma das opcoes dessa lista\n\nEm Typescript, sabe como isso poderia ser tipado?\nSe liga aí:",
+    "full": "💡Alo galera do typescript\n\n- Vamos supor que eu tenho um array de opções fixas\n- E eu tenho uma variável cujo valor deve ser uma das opcoes dessa lista\n\nEm Typescript, sabe como isso poderia ser tipado?\nSe liga aí:",
+    "image": "https://pbs.twimg.com/media/F8ApKBOXoAAI7qM.png:large",
+    "tags": [
+      "typescript"
+    ]
   }
 ]
