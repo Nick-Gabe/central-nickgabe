@@ -742,5 +742,19 @@
     "tags": [
       "typescript"
     ]
+  },
+  {
+    "type": "text",
+    "social": "twitter",
+    "id": "1596870082520834048",
+    "date": "2022-11-27T14:14:30.000Z",
+    "url": "https://x.com/ImNickGabe/status/1596870082520834048",
+    "title": "Ei Dev JS, você mesmo!",
+    "description": "- Você sabe as diferenças entre var, const e let?\n- Sabe quais os problemas de utilizar o var? \n\nNão? 🤔\nPois relaxa que acabei de postar um vídeo sobre esse tópico! Dá uma olhadinha lá :) ❤️\n\ncc @sseraphini",
+    "full": "Ei Dev JS, você mesmo!\n- Você sabe as diferenças entre var, const e let?\n- Sabe quais os problemas de utilizar o var? \n\nNão? 🤔\nPois relaxa que acabei de postar um vídeo sobre esse tópico! Dá uma olhadinha lá :) ❤️\n\ncc @sseraphini",
+    "image": "",
+    "tags": [
+      "javascript"
+    ]
   }
 ]
