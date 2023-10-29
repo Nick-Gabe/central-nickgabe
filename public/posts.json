@@ -756,5 +756,19 @@
     "tags": [
       "javascript"
     ]
+  },
+  {
+    "type": "image",
+    "social": "twitter",
+    "id": "1717881333207503157",
+    "date": "2023-10-27T12:30:01.000Z",
+    "url": "https://x.com/ImNickGabe/status/1717881333207503157",
+    "title": "✅ o useMemo do React é bom pra otimizar seu código, mas tu já pensou nos pontos negativos dele?",
+    "description": "Fiz um vídeo para tratar justamente desse tema!\nBora ver se os teus memos estão certinhos 🧐",
+    "full": "✅ o useMemo do React é bom pra otimizar seu código, mas tu já pensou nos pontos negativos dele?\n\nFiz um vídeo para tratar justamente desse tema!\nBora ver se os teus memos estão certinhos 🧐",
+    "image": "https://pbs.twimg.com/ext_tw_video_thumb/1717708383820636160/pu/img/yae_6QiJn1b7H2Kd.jpg:large",
+    "tags": [
+      "react"
+    ]
   }
 ]

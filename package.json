@@ -52,6 +52,6 @@
     "typescript-plugin-css-modules": "^5.0.1"
   },
   "optionalDependencies": {
-    "puppeteer": "^21.3.8"
+    "puppeteer": "^21.4.1"
   }
 }
